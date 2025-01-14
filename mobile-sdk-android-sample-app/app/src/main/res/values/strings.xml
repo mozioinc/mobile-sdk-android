@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mobile SDK Android Sample App</string>
+    <string name="search_rides_button">Search Rides</string>
+</resources>
