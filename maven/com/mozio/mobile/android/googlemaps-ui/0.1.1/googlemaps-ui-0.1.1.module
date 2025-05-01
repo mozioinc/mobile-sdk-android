@@ -1,0 +1,227 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "googlemaps-ui",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "googlemaps-ui-0.1.1.aar",
+          "url": "googlemaps-ui-0.1.1.aar",
+          "size": 144839,
+          "sha512": "1628fe5ffa9a53d88a6dd49dd668c8b0cc3a59699ac2f8573098be1874fe7fac7983bca428692cf1d0a7ec7358fd1368fb098bfa1fff11d5d75a15d80a34f44a",
+          "sha256": "02b28a1025c508972a90779560705eb91cc9cc0a4532dccc57d3eb6ae263792a",
+          "sha1": "c8bb5c09e63b7c9083f6c7329e133e33a1114c4b",
+          "md5": "86d11105ee5db6c23c2f4ff1c5310764"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-base",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-svg",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.google.maps.android",
+          "module": "maps-compose",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "19.0.0"
+          }
+        },
+        {
+          "group": "com.google.maps.android",
+          "module": "maps-ktx",
+          "version": {
+            "requires": "5.1.1"
+          }
+        },
+        {
+          "group": "com.google.maps.android",
+          "module": "maps-utils-ktx",
+          "version": {
+            "requires": "5.1.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "googlemaps-ui-0.1.1.aar",
+          "url": "googlemaps-ui-0.1.1.aar",
+          "size": 144839,
+          "sha512": "1628fe5ffa9a53d88a6dd49dd668c8b0cc3a59699ac2f8573098be1874fe7fac7983bca428692cf1d0a7ec7358fd1368fb098bfa1fff11d5d75a15d80a34f44a",
+          "sha256": "02b28a1025c508972a90779560705eb91cc9cc0a4532dccc57d3eb6ae263792a",
+          "sha1": "c8bb5c09e63b7c9083f6c7329e133e33a1114c4b",
+          "md5": "86d11105ee5db6c23c2f4ff1c5310764"
+        }
+      ]
+    }
+  ]
+}

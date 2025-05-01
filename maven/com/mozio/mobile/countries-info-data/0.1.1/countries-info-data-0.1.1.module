@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile",
+    "module": "countries-info-data",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-data-metadata-0.1.1.jar",
+          "url": "countries-info-data-0.1.1.jar",
+          "size": 6966,
+          "sha512": "0ad949b43f87f5a0c3ad9b43e124517511d27f209f89487e708e310f5b38715593f31b9b1ee178155a8ef29c652a15e7d5062ca1017de3127aaac3f86086d8e1",
+          "sha256": "66c561ed7a8aa301301354e3dce3b0986efeea17ecc2d00ccd57ce1c02592588",
+          "sha1": "5447a82d02f65d2d873db427dad3f01092eace12",
+          "md5": "b53b09afffe4dceecb868264a368a946"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-android/0.1.1/countries-info-data-android-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-android",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-android/0.1.1/countries-info-data-android-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-android",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-iosarm64/0.1.1/countries-info-data-iosarm64-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-iosarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-iosarm64/0.1.1/countries-info-data-iosarm64-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-iosarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-iossimulatorarm64/0.1.1/countries-info-data-iossimulatorarm64-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-iossimulatorarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-iossimulatorarm64/0.1.1/countries-info-data-iossimulatorarm64-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-iossimulatorarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-iosx64/0.1.1/countries-info-data-iosx64-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-iosx64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../countries-info-data-iosx64/0.1.1/countries-info-data-iosx64-0.1.1.module",
+        "group": "com.mozio.mobile",
+        "module": "countries-info-data-iosx64",
+        "version": "0.1.1"
+      }
+    }
+  ]
+}

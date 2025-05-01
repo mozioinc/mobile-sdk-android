@@ -14,6 +14,12 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.1.1] - 2025-05-01 10:44:13 Z
+
+### Bug fixes
+- Fix some timeZone handling
+- Fix cosmetic issue on search results
+
 ## [v0.1.0] - 2025-04-30 07:50:44 Z
 
 ### What's new
