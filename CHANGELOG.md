@@ -14,6 +14,17 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.1.2] - 2025-05-28 09:29:35 Z
+
+### Bug fixes
+- Fix more cosmetic issues on search results
+- Improve payment method selection
+- Fix cosmetic issue on booking confirmation screen
+- Fix phone number formatting
+- Fix cosmetic issue on FullScreenDialog
+- Fix minor UI issues on small devices
+- Fix some Stripe configuration issues
+
 ## [v0.1.1] - 2025-05-01 10:44:13 Z
 
 ### Bug fixes
