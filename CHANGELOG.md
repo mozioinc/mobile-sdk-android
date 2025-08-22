@@ -14,6 +14,16 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.2.0] - 2025-08-22 14:56:45 Z
+
+### What's new
+- Add flow to see reservation details
+- Add driver live tracking
+- Add flight information input to ride booking form
+- Add option to set locations directly from the map
+- Add new languages: Dutch, French, German, Greek, Italian, Portuguese, Spanish 
+- Replace STAGING environment with TESTING
+
 ## [v0.1.2] - 2025-05-28 09:29:35 Z
 
 ### Bug fixes
