@@ -58,24 +58,23 @@ In your `Application` class, inside the `onCreate()` method, initialize the Mozi
 ```kotlin
 MozioSDK.init(
     application = this,
-    environment = Environment.STAGING,
+    environment = Environment.TESTING,
     apiKey = ApiKey("YOUR_MOZIO_API_KEY")
 )
 ```
 
-Use `Environment.STAGING` or `Environment.PRODUCTION` based on your build variant configuration.
+Use `Environment.TESTING` or `Environment.PRODUCTION` based on your build variant configuration.
 Replace `YOUR_MOZIO_API_KEY` with the appropriate apiKey provided by Mozio.
 
 ---
 
 ## 🚀 Using the SDK
-To utilize the SDK's UI components, you can integrate the search rides view directly into your app using this compose view:
+To utilize the SDK's UI components, you can import them from `MozioSDK` using one of the provided composables:
 
 ```kotlin
-MozioSDK.SearchRidesScreen()
+MozioSDK.SearchRidesScreen() // This will open the Mozio search rides flow, providing users with a seamless booking experience.
+MozioSDK.FindReservationBottomSheet() // This will open the Mozio find reservation flow, allowing users to find already booked reservations, see their statuses and live-track their driver.
 ```
-
-This will open the Mozio search rides flow, providing users with a seamless booking experience.
 
 ---
 
@@ -103,7 +102,7 @@ fun init(
 
 #### Parameters
 - **`application`** *(Application)*: The Android application instance.
-- **`environment`** *(Environment)*: Defines whether to use the `STAGING` or `PRODUCTION` environment.
+- **`environment`** *(Environment)*: Defines whether to use the `TESTING` or `PRODUCTION` environment.
 - **`apiKey`** *(ApiKey)*: The API key required to authenticate with the Mozio API.
 - **`shouldDisplayResultsWhileLoading`** *(Boolean, optional)*: Determines whether ride results should start being displayed while search is still running. Defaults to `true`.
 - **`termsOfServiceUrl`** *(TermsOfServiceUrl, optional)*: The URL linking to the terms of service. Defaults to Mozio's official terms.
@@ -115,7 +114,7 @@ fun init(
 #### Environment Options
 ```kotlin
 enum class Environment {
-    STAGING, PRODUCTION
+    TESTING, PRODUCTION
 }
 ```
 
@@ -178,8 +177,8 @@ init(
 ```kotlin
 init(
     application = this,
-    environment = Environment.STAGING,
-    apiKey = ApiKey("my-staging-api-key"),
+    environment = Environment.TESTING,
+    apiKey = ApiKey("my-testing-api-key"),
     logSeverity = LogSeverity.VERBOSE,
     lightColors = customLightColors,
     darkColors = customDarkColors
@@ -273,6 +272,36 @@ SearchRidesScreen(
 ```
 
 Depending on your UI/UX, you might decide to show a back icon (or close icon) and close the booking flow when this icon is pressed, or you can use `onBookingEvent()` to react to `BookingEvent.BookingConfirmationClosed` and close the booking flow when the ride is booked and the user closes the booking confirmation screen.
+
+---
+
+### FindReservationBottomSheet
+
+#### Overview
+`FindReservationBottomSheet` is a composable function designed to allow users to see the details of an already booked reservation given its id and their last name. If the details match, the user is presented with the reservation details, where they can see everything about their reservation and also live-track their driver.
+
+#### Function Signature
+```kotlin
+@Composable
+fun FindReservationBottomSheet(
+    onXClick: () -> Unit,
+    modifier: Modifier = Modifier
+)
+```
+
+#### Parameters
+- **`onXClick`** *(Function)*: A lambda function triggered when the X button on the bottom sheet is tapped. Useful to react to the bottom sheet dismiss event.
+- **`modifier`** *(Modifier, optional)*: Used to apply layout and styling configurations.
+
+#### Usage Examples
+##### Hide the bottom sheet when it's closed by the user
+```kotlin
+MozioSDK.FindReservationBottomSheet(
+    onXClick = {
+        showFindReservationBottomSheet = false
+    }
+)
+```
 
 ---
 

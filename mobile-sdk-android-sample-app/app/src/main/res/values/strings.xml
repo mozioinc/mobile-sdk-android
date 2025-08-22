@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Mobile SDK Android Sample App</string>
     <string name="search_rides_button">Search Rides</string>
+    <string name="find_reservation_button">Find Reservation</string>
 </resources>
