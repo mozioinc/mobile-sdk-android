@@ -305,5 +305,92 @@ MozioSDK.FindReservationBottomSheet(
 
 ---
 
+### 🚗 How SDK Tracking Works with Mozio Driver App
+
+The SDK tracking system provides a seamless real-time experience that synchronizes with the **[Mozio Driver app](https://play.google.com/store/apps/details?id=com.mozio.driver)**. Here's the detailed step-by-step workflow:
+
+#### Step 1: Driver Assignment - Tracking Not Available Yet
+- **Mozio Driver App:** 
+    - Driver receives a new reservation assignment
+- **SDK Behavior:**
+    - Reservation status shows as `Not Started`
+    - Users see reservation details (pickup time, assigned driver and vehicled details, pickup and destination location, etc)
+    - Tracking button checks reservation status when tapped
+        - If it's still `Not Started`, it shows an alert to the user
+        - If it reaches a trackable state, it presents the full-screen tracking view with real-time updates
+
+<p align="center">
+  <img src="docs/screenshots/not_started_1.png" alt="Not Started Screenshot 1" height="500"/>
+  <img src="docs/screenshots/not_started_2.png" alt="Not Started Screenshot 2" height="500"/>
+</p>
+
+#### Step 2: Driver Departs for Pickup - Tracking Begins
+- **Mozio Driver App:** 
+    - Driver swipes to indicate they are departing for pickup location
+- **SDK Behavior:**
+    - Reservation status updates to `Driver En Route`
+    - **Tracking becomes available** 
+    - When user taps "Track Ride", the full-screen tracking view opens
+    - Tracking title shows `Driver on their way`
+    - **Real-time driver location updates begin** on the map
+        - ETA to pickup location is displayed and continuously updated
+        - Driver information panel shows contact details and vehicle info
+        - Status banner shows "Your driver is on the way to pick you up"
+
+<p align="center">
+  <img src="docs/screenshots/en_route_1.png" alt="En Route Screenshot 1" height="500"/>
+  <img src="docs/screenshots/en_route_2.png" alt="En Route Screenshot 2" height="500"/>
+</p>
+
+#### Step 3: Driver Arrives at Pickup Point
+- **Mozio Driver App:** 
+    - Driver arrives at pickup location and updates status
+- **SDK Behavior:**
+    - Reservation status updates to `Driver Arrived`
+    - Tracking title shows `Your driver has arrived`
+    - **Driver location pin shows at pickup point** on the map
+    - Status banner changes to "Your driver has arrived at the pickup location"
+    - **Pickup instructions are prominently displayed** to guide passenger
+    - Driver contact information remains accessible for coordination
+    - **No-show handling:** If passenger doesn't appear, driver can mark as no-show, updating SDK status to `No Show`
+
+<p align="center">
+  <img src="docs/screenshots/arrived_at_pickup_1.png" alt="Arrived At Pickup Screenshot 1" height="500"/>
+  <img src="docs/screenshots/arrived_at_pickup_2.png" alt="Arrived At Pickup Screenshot 2" height="500"/>
+</p>
+
+#### Step 4: En Route to Destination
+- **Mozio Driver App:** 
+    - Driver confirms passenger pickup and begins journey to destination
+- **SDK Behavior:**
+    - Reservation status updates to `In Progress`
+    - Tracking title changes to `Heading to [destination]`
+    - **ETA switches from pickup to destination** timing
+    - Real-time route visualization shows on map with driver's current position
+    - Status banner shows "You're on your way to [destination]"
+    - **Continuous location and ETA updates** as driver progresses along route
+    - Driver remains contactable throughout the journey
+
+<p align="center">
+  <img src="docs/screenshots/departed_to_dropoff_1.png" alt="Departed To Dropoff Screenshot 1" height="500"/>
+  <img src="docs/screenshots/departed_to_dropoff_2.png" alt="Departed To Dropoff Screenshot 2" height="500"/>
+</p>
+
+#### Step 5: Ride Completed
+- **Mozio Driver App:** 
+    - Driver arrives at destination, drops off passenger and swipes to complete the ride
+- **SDK Behavior:**
+    - Reservation status updates to `Completed`
+    - Tracking title shows ride completion status
+    - **Animated celebration view appears** confirming successful ride completion
+    - Final trip summary is displayed with completion time
+    - Tracking automatically stops and view can be dismissed
+
+<p align="center">
+  <img src="docs/screenshots/ride_completed.png" alt="Ride Completed Screenshot" height="500"/>
+</p>
+
+---
+
 ## 🐞 Reporting Issues
 If you encounter any issues or have questions, please open an issue in the [Mozio Android SDK repository](https://github.com/mozioinc/mobile-sdk-android).
