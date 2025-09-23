@@ -3,11 +3,11 @@
   <groupId>com.mozio.mobile</groupId>
   <artifactId>sdk-api-config-environment-android</artifactId>
   <versioning>
-    <latest>0.2.0</latest>
-    <release>0.2.0</release>
+    <latest>0.2.1</latest>
+    <release>0.2.1</release>
     <versions>
-      <version>0.2.0</version>
+      <version>0.2.1</version>
     </versions>
-    <lastUpdated>20250822151349</lastUpdated>
+    <lastUpdated>20250923140139</lastUpdated>
   </versioning>
 </metadata>

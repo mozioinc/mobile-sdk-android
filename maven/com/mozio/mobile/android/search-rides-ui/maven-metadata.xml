@@ -3,11 +3,11 @@
   <groupId>com.mozio.mobile.android</groupId>
   <artifactId>search-rides-ui</artifactId>
   <versioning>
-    <latest>0.2.0</latest>
-    <release>0.2.0</release>
+    <latest>0.2.1</latest>
+    <release>0.2.1</release>
     <versions>
-      <version>0.2.0</version>
+      <version>0.2.1</version>
     </versions>
-    <lastUpdated>20250822151354</lastUpdated>
+    <lastUpdated>20250923140143</lastUpdated>
   </versioning>
 </metadata>

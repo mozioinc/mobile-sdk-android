@@ -14,6 +14,13 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.2.1] - 2025-09-23 13:45:23 Z
+
+### Bug fixes
+- Fix font not applied correctly everywhere
+- Fix some theme colors not applied correctly
+- Fix wrong selected date with timezones before UTC
+
 ## [v0.2.0] - 2025-08-22 14:56:45 Z
 
 ### What's new
