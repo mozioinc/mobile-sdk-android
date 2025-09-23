@@ -149,11 +149,13 @@ The `ColorsConfig` interface defines the color scheme used in the SDK:
 ```kotlin
 interface ColorsConfig {
     val primary: Color // The primary color of the app, usually the one that identifies the brand. For main CTAs and notifications
+    val onPrimary: Color // The color used for text and icons displayed on top of the primary color
     val secondary: Color // The secondary brand color or a contrasting color that matches the primary color. Used to mark selections, tool tips, helpers etc
+    val onSecondary: Color // The color used for text and icons displayed on top of the secondary color
     val foreground: Color // The foreground color mainly used for text
-    val background: Color // The primary color used as a background color
+    val background: Color // The color used as a background color
     val route: Color // The color used to highlight the current route or waypoints on a map
-    val information: Color // The primary color used when displaying informative elements
+    val information: Color // The color used when displaying informative elements
     val error: Color // The color used when displaying or highlighting error elements
     val success: Color // The color used when displaying or highlighting success elements
     val neutral1: Color // The neutral color used when highlighting light gray UI elements
