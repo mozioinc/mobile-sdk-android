@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mobile-sdk-bff/0.2.2/mobile-sdk-bff-0.2.2.module",
+    "group": "com.mozio.mobile",
+    "module": "mobile-sdk-bff",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mobile-sdk-bff-release.aar",
+          "url": "mobile-sdk-bff-android-0.2.2.aar",
+          "size": 156193,
+          "sha512": "81c1bc2d2d07ec219f03cc6b0c456ffad6e33bef4d3161188f32be3c94959fea3b32e0ff65703fef1f9b283d1a464a5bc8d1c306640b345c61a10944bdb64d90",
+          "sha256": "014fddc774f5f94867520701b33a2d0ef5ea823313ee62edef67263e07ea3434",
+          "sha1": "8a434df38ddc666b670110c3438d6ff6a8545c95",
+          "md5": "fe8ca1b80edd6a629c94bc61fb908351"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.19.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "mobile-sdk-bff-release.aar",
+          "url": "mobile-sdk-bff-android-0.2.2.aar",
+          "size": 156193,
+          "sha512": "81c1bc2d2d07ec219f03cc6b0c456ffad6e33bef4d3161188f32be3c94959fea3b32e0ff65703fef1f9b283d1a464a5bc8d1c306640b345c61a10944bdb64d90",
+          "sha256": "014fddc774f5f94867520701b33a2d0ef5ea823313ee62edef67263e07ea3434",
+          "sha1": "8a434df38ddc666b670110c3438d6ff6a8545c95",
+          "md5": "fe8ca1b80edd6a629c94bc61fb908351"
+        }
+      ]
+    }
+  ]
+}
