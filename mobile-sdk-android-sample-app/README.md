@@ -428,7 +428,80 @@ If everything runs correctly, the ride will begin broadcasting live tracking.
 - Open the **Find Reservation** screen in the app using the *Confirmation Number* and *Passenger's Last Name*
 - You should see a simulated car moving along the route 🚗💨 and ride status updates!
 
-### 🛠️ Troubleshooting
+---
+
+## 🧭 Analytics
+
+The SDK provides a flexible analytics logging system that allows your app to receive and handle analytics events and screen views.
+
+### Overview
+
+To enable analytics tracking, you need to implement the `AnalyticsLogger` interface and provide your implementation to the SDK via `MozioSDK.init()`.
+
+This interface defines two main functions:
+
+```kotlin
+interface AnalyticsLogger {
+    /**
+     * Log an event into the specific analytics bucket
+     * @param analyticsEvent the event to be logged
+     */
+    suspend fun logEvent(analyticsEvent: AnalyticsEvent)
+
+    /**
+     * Log a screen view into the specified analytics bucket
+     * @param analyticsScreenView the screen view to be logged
+     */
+    suspend fun logScreenView(analyticsScreenView: AnalyticsScreenView)
+}
+```
+
+Your implementation can forward analytics data to any analytics platform such as Firebase, Mixpanel, Amplitude, Datadog, or a custom backend.
+
+If you do not wish to receive analytics events, simply omit providing an implementation: a no-op (no operation) implementation will be used by default.
+
+### 📊 Available Analytics Events
+
+These are the analytics events reported via the `logEvent()` callback:
+
+| Event Name                  | Class                                    | Description                                                            |
+| --------------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
+| `Search Rides Click`        | `AnalyticsEvent.SearchRidesClick`        | Triggered when the **Search Rides** button is clicked in the booking flow                  |
+| `Search Result Click`       | `AnalyticsEvent.SearchResultClick`       | Triggered when a **search result** is selected in the booking flow                        |
+| `Book Now Click`            | `AnalyticsEvent.BookNowClick`            | Triggered when the **Book Now** button is clicked in the booking flow                     |
+| `Manage Reservation Click`  | `AnalyticsEvent.ManageReservationClick`  | Triggered when the **Manage Reservation** button is clicked in the reservation details screen            |
+| `Track Ride Click`          | `AnalyticsEvent.TrackRideClick`          | Triggered when the **Track Ride** button is clicked in the reservation details screen                    |
+| `Pickup Instructions Click` | `AnalyticsEvent.PickupInstructionsClick` | Triggered when the **Pickup Instructions** button is clicked in the reservation details screen           |
+| *(Custom)*                  | `AnalyticsEvent.ScreenView`              | ScreenViews are also reported as events to simplify tracking in some scenarios. You can ignore this and use the `logScreenView()` callback as explained below.
+
+
+### 🖥️ Available Analytics Screen Views
+
+These are the analytics screen views reported via the `logScreenView()` callback:
+
+| Screen Name               | Class                                       | Description                        |
+| ------------------------- | ------------------------------------------- | ---------------------------------- |
+| `Search Rides`            | `AnalyticsScreenView.SearchRides`           | Booking Flow - Search rides screen                |
+| `Search Results`          | `AnalyticsScreenView.SearchResults`         | Booking Flow - Search results list                |
+| `Search Ride Details`     | `AnalyticsScreenView.SearchRideDetails`     | Booking Flow - Ride details screen                |
+| `Booking Contact Details` | `AnalyticsScreenView.BookingContactDetails` | Booking Flow - Booking contact information screen |
+| `Booking Summary`         | `AnalyticsScreenView.BookingSummary`        | Booking Flow - Booking summary review screen      |
+| `Booking Confirmation`    | `AnalyticsScreenView.BookingConfirmation`   | Booking Flow - Booking confirmation screen        |
+| `Find Reservation`        | `AnalyticsScreenView.FindReservation`       | Post Booking Flow - Find reservation bottom sheet      |
+| `Reservation Details`     | `AnalyticsScreenView.ReservationDetails`    | Post Booking Flow - Reservation details screen         |
+| `Pickup Instructions`     | `AnalyticsScreenView.PickupInstructions`    | Post Booking Flow - Pickup instructions screen         |
+| `Live Tracking`           | `AnalyticsScreenView.LiveTracking`          | Post Booking Flow - Live ride tracking screen          |
+| `Ride Completed`          | `AnalyticsScreenView.RideCompleted`         | Post Booking Flow - Ride completion screen             |
+
+
+### 🧩 Notes
+
+- All analytics events and screen views are reported asynchronously.
+- You can safely ignore analytics collection if your app doesn’t need it.
+
+---
+
+## 🛠️ Troubleshooting
 
 If you don’t see the car moving on the map:
 - ✅ Double-check your booking: ensure pickup time is within 3 hours and you chose *Tracking Testing Provider*. For the records, you could book also at another time, but live-tracking can be starte only when the current time is next to the pickup time.
