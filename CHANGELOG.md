@@ -14,6 +14,11 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.3.0] - 2025-10-10 07:16:37 Z
+
+### What's new
+- Add analytics support
+
 ## [v0.2.2] - 2025-10-07 06:16:13 Z
 
 ### Bug fixes
