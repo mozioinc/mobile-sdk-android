@@ -14,6 +14,11 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.4.0] - 2025-10-13 15:05:36 Z
+
+### What's new
+- Downgrade to JVM 17 to compile the project
+
 ## [v0.3.0] - 2025-10-10 07:16:37 Z
 
 ### What's new
