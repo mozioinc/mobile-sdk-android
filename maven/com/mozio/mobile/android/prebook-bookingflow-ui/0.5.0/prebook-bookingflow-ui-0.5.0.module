@@ -1,0 +1,290 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "prebook-bookingflow-ui",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prebook-bookingflow-ui-0.5.0.aar",
+          "url": "prebook-bookingflow-ui-0.5.0.aar",
+          "size": 1004489,
+          "sha512": "5e3dcad154d4f883ab5152b4c4c69d709ed166f250407c8c297e86cae56824603bdf01fcc877a5083bc3e797d0fa12d3056ec0e4d650470875fc9fdc7d82c53e",
+          "sha256": "2c8227e82e598ecd025a29612dc9cbebb15212506913b45ae2e7e85bb096bc29",
+          "sha1": "59dc9b0df0ad0103b972f614851430288b85bbfb",
+          "md5": "a9370bdeb7365216345734cd05ee01c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "prebook-ui",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "country-phone-ui",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-payments-ui",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-ktor3",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-svg",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.github.jeziellago",
+          "module": "compose-markdown",
+          "version": {
+            "requires": "0.5.7"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "21.20.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie-compose",
+          "version": {
+            "requires": "6.6.7"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-datetime",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "sdk-analytics-ui",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prebook-bookingflow-ui-0.5.0.aar",
+          "url": "prebook-bookingflow-ui-0.5.0.aar",
+          "size": 1004489,
+          "sha512": "5e3dcad154d4f883ab5152b4c4c69d709ed166f250407c8c297e86cae56824603bdf01fcc877a5083bc3e797d0fa12d3056ec0e4d650470875fc9fdc7d82c53e",
+          "sha256": "2c8227e82e598ecd025a29612dc9cbebb15212506913b45ae2e7e85bb096bc29",
+          "sha1": "59dc9b0df0ad0103b972f614851430288b85bbfb",
+          "md5": "a9370bdeb7365216345734cd05ee01c1"
+        }
+      ]
+    }
+  ]
+}

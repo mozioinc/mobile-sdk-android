@@ -14,6 +14,12 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.5.0] - 2025-10-30 10:23:29 Z
+
+### What's new
+- Update to ktor v3.x
+- Update to coil v3.x
+
 ## [v0.4.0] - 2025-10-13 15:05:36 Z
 
 ### What's new
