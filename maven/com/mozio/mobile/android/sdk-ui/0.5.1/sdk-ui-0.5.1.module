@@ -1,0 +1,304 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "sdk-ui",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api-config",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "sdk-ui-config",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-analytics",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-0.5.1.aar",
+          "url": "sdk-ui-0.5.1.aar",
+          "size": 36927,
+          "sha512": "353b2e771905ee229b4db186be21f79501dfdfefe73839f656cad2efcc0929eed0a94c367e3dc9f8366f023a036b02f7661bcd3df9f8fe9ca4780837380bae3a",
+          "sha256": "073a529bee384af8d0738f4419d8d8bdd6358f76d6b4565ae60cc0594407ea21",
+          "sha1": "8db0a0c98bd6aa34cafdc3909e6ef5f49909c472",
+          "md5": "2c5a6c273b09c96e5ee7b34c467aa670"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "search-rides-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "prebook-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "prebook-bookingflow-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "authentication-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "myaccount-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "main-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "reservation-details-ui",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-androidx-compose",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "21.20.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-di",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api-config",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "sdk-ui-config",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-analytics",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-0.5.1.aar",
+          "url": "sdk-ui-0.5.1.aar",
+          "size": 36927,
+          "sha512": "353b2e771905ee229b4db186be21f79501dfdfefe73839f656cad2efcc0929eed0a94c367e3dc9f8366f023a036b02f7661bcd3df9f8fe9ca4780837380bae3a",
+          "sha256": "073a529bee384af8d0738f4419d8d8bdd6358f76d6b4565ae60cc0594407ea21",
+          "sha1": "8db0a0c98bd6aa34cafdc3909e6ef5f49909c472",
+          "md5": "2c5a6c273b09c96e5ee7b34c467aa670"
+        }
+      ]
+    }
+  ]
+}

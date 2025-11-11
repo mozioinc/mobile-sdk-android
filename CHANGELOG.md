@@ -14,6 +14,11 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.5.1] - 2025-11-11 12:22:58 Z
+
+### Bug fixes
+- Fix some dark theme colors
+
 ## [v0.5.0] - 2025-10-30 10:23:29 Z
 
 ### What's new
