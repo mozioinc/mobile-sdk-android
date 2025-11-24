@@ -14,6 +14,11 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.6.0] - 2025-11-24 17:25:11 Z
+
+### What's new
+- Add way to customize bottom sheets colors
+
 ## [v0.5.1] - 2025-11-11 12:22:58 Z
 
 ### Bug fixes
