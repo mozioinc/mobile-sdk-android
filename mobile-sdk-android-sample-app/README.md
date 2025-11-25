@@ -154,6 +154,8 @@ interface ColorsConfig {
     val onSecondary: Color // The color used for text and icons displayed on top of the secondary color
     val foreground: Color // The foreground color mainly used for text
     val background: Color // The color used as a background color
+    val surface: Color // The color used for surfaces of components
+    val bottomSheetContainer: Color // The color used for the background of the bottom sheet container.
     val route: Color // The color used to highlight the current route or waypoints on a map
     val information: Color // The color used when displaying informative elements
     val error: Color // The color used when displaying or highlighting error elements
