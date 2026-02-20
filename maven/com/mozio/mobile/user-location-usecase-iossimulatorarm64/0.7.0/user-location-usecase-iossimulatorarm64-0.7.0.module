@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../user-location-usecase/0.7.0/user-location-usecase-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "user-location-usecase",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-location-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-location-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "user-location-usecase-iosSimulatorArm64Main-0.7.0.klib",
+          "url": "user-location-usecase-iossimulatorarm64-0.7.0.klib",
+          "size": 5019,
+          "sha512": "9630410701e87c4be121685625ad57857b80de9196d2290e70848d88251468264689fe99915fe9fae8379f7dc988a7963ee66297889c8606d5b5d2590f77e2cb",
+          "sha256": "f2fd6104741fc92096585f621ca359eb62403adc721ea13f99b497f42c92ad2a",
+          "sha1": "b3963f307fd80e26ea0f558ecf82d2109d16bb6d",
+          "md5": "c252a2be224c1d0d2def8a347cf0cd23"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-location-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-location-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "user-location-usecase-iossimulatorarm64-0.7.0-metadata.jar",
+          "url": "user-location-usecase-iossimulatorarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "f731445f376d77f39e47df0cfa7a4a115923b31d20d235d54c8976eff75490763f95b147867e5b5efc15046418678de928c38a2e75c3d70e01f1244bb88777fb",
+          "sha256": "33402798a63ecfabe181cf74f44ab375a87965d0ca57ba2ba14d0524955a56f5",
+          "sha1": "81f1aaf63ca5bba7ea5f7eefde31629490ccab4a",
+          "md5": "8cee89dd2b6b3345c0d4cb339fbbf4e7"
+        }
+      ]
+    }
+  ]
+}

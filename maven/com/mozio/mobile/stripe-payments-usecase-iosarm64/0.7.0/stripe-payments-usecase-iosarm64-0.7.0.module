@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../stripe-payments-usecase/0.7.0/stripe-payments-usecase-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "stripe-payments-usecase",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-payments-usecase-iosArm64Main-0.7.0.klib",
+          "url": "stripe-payments-usecase-iosarm64-0.7.0.klib",
+          "size": 4994,
+          "sha512": "340234aac7e56aa842111fe41540538eb0ef875ad120a63cb642ec016933dc0bc2c8e8c33ab4d0bbd83982cba2632793e1e8c4d2cf4dd51f360a6b1058e1a534",
+          "sha256": "da823de6346175f49da8e96e42218ccedb548eed1049538e8b4975c928e7c46c",
+          "sha1": "cf3ffa87fcb9c69db3981aa2f245bb22adfc9b6b",
+          "md5": "b20b73a7b9ff9b931db97517c07db5d1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-payments-usecase-iosarm64-0.7.0-metadata.jar",
+          "url": "stripe-payments-usecase-iosarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "c10a877a87534cbec5c6086096c3c05d32447a61985d7d1f05cc8070266fc2c0352d954d585009cd622b8aba69c4eeab278420100bafcf2372e1600b0cc1bece",
+          "sha256": "ea278e85f9271524c5d53c692e44ee0806b656ef7733bd0eaf1c1d85eb0e987b",
+          "sha1": "b4672e14c8a6c298238a0565df71d5c971d93633",
+          "md5": "0e2b57433f5d75d799ff77504f4d2f6b"
+        }
+      ]
+    }
+  ]
+}

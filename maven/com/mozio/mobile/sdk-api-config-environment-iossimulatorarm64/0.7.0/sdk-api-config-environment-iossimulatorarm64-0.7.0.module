@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-api-config-environment/0.7.0/sdk-api-config-environment-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "sdk-api-config-environment",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-api-config-environment-iosSimulatorArm64Main-0.7.0.klib",
+          "url": "sdk-api-config-environment-iossimulatorarm64-0.7.0.klib",
+          "size": 7065,
+          "sha512": "867575afe01a36405292a08959c5f44e2cd2f53601d3689ac3eff3f2c7b1e149a2eaa444aa5e059945b059b23b5586bd86cd2904c679c8267ddd8f037e868a83",
+          "sha256": "98fa68fe6b12295262e828135a4c3c73f45efee197058f2e67284ca6a5e4c159",
+          "sha1": "34103f68fbc73361d7ab98cce913ec652dd3978a",
+          "md5": "e4c1357ca307d607d5c6142041932976"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-api-config-environment-iossimulatorarm64-0.7.0-metadata.jar",
+          "url": "sdk-api-config-environment-iossimulatorarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "e92cf0c40bbca950f34a4e62618c42d1fbd53829f5ecd6045756db596c15561e2cd205224c964477587617c0a2fe7c61a308643ca1d171491b07184c6d17b4ca",
+          "sha256": "6d163f2f8e03323db7b63b8c091aa28dfaf2dea7f97f339cf62356fd3b766895",
+          "sha1": "fd5daee1ed3c811770feaef0fb05dfa72a04fcc8",
+          "md5": "7c9d84607af458eba02fc9a23a1a8259"
+        }
+      ]
+    }
+  ]
+}

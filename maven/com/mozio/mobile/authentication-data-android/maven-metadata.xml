@@ -3,11 +3,11 @@
   <groupId>com.mozio.mobile</groupId>
   <artifactId>authentication-data-android</artifactId>
   <versioning>
-    <latest>0.6.0</latest>
-    <release>0.6.0</release>
+    <latest>0.7.0</latest>
+    <release>0.7.0</release>
     <versions>
-      <version>0.6.0</version>
+      <version>0.7.0</version>
     </versions>
-    <lastUpdated>20251124173721</lastUpdated>
+    <lastUpdated>20260220125131</lastUpdated>
   </versioning>
 </metadata>

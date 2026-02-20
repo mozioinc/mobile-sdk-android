@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-di/0.7.0/sdk-di-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "sdk-di",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-di-iosSimulatorArm64Main-0.7.0.klib",
+          "url": "sdk-di-iossimulatorarm64-0.7.0.klib",
+          "size": 6385,
+          "sha512": "1d6d251257b64f4bab71f47886254a804e1b201039773f505026f7943d08a61278991a1296a14d9a26045e7a7226d230cac4f69b36813b512c94988ed2134352",
+          "sha256": "f74b3cc52cdd67e8fb16cd4f4c72345cbcd170f93ac0b0937cd5af7e39f6c9c6",
+          "sha1": "f376205fb5f74a5d4374095a327356443ae50424",
+          "md5": "e702a07029bb16394e955169187322af"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-di-iossimulatorarm64-0.7.0-metadata.jar",
+          "url": "sdk-di-iossimulatorarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "e92cf0c40bbca950f34a4e62618c42d1fbd53829f5ecd6045756db596c15561e2cd205224c964477587617c0a2fe7c61a308643ca1d171491b07184c6d17b4ca",
+          "sha256": "6d163f2f8e03323db7b63b8c091aa28dfaf2dea7f97f339cf62356fd3b766895",
+          "sha1": "fd5daee1ed3c811770feaef0fb05dfa72a04fcc8",
+          "md5": "7c9d84607af458eba02fc9a23a1a8259"
+        }
+      ]
+    }
+  ]
+}

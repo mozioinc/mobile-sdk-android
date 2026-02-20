@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../reservation-details-usecase/0.7.0/reservation-details-usecase-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "reservation-details-usecase",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservation-details-usecase-iosX64Main-0.7.0.klib",
+          "url": "reservation-details-usecase-iosx64-0.7.0.klib",
+          "size": 5097,
+          "sha512": "c0454fc65eac116ca92e43660f2d9f1bc5ebbbcfca9a608c37ce7db6cb349dde3b16211f7639d6dc096ac1bb1aae5008c97d48119bfb52584ac649315bd4ae45",
+          "sha256": "9a0eccd7d4898d2c21dfc81eba4fa943d805b4142068b5e1d02851424a6894b9",
+          "sha1": "62026e527fb50ff3ae36312a89b1e96cb80a23db",
+          "md5": "9bb124ffb408305dc08c07b990dd6a61"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservation-details-usecase-iosx64-0.7.0-metadata.jar",
+          "url": "reservation-details-usecase-iosx64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "6471ed0812a80a51a05d22f93b4ad337b05a0b19a45a3a0debfadf97b48eaa321cc7767df6693ecfc59563701258f57e62c6d1c9255a963c272b2df4f0fce2eb",
+          "sha256": "5ea27440cee3f1530fb1e4e4b3b073b9589bdc29220d862026ca76ee8d2baf5e",
+          "sha1": "6487e5adfa0e47ec302030750b950a85717416db",
+          "md5": "548dbb3cd679dcd17e3a628db1529c66"
+        }
+      ]
+    }
+  ]
+}

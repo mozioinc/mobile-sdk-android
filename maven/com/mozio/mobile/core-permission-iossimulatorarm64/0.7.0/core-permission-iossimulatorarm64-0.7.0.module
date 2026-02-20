@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-permission/0.7.0/core-permission-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "core-permission",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-iosSimulatorArm64Main-0.7.0.klib",
+          "url": "core-permission-iossimulatorarm64-0.7.0.klib",
+          "size": 34114,
+          "sha512": "205ba8e1da357f60958ff2496ada6e745854a277382cb37ac74b7d769e8a5d3f38bfef0c9b9c36c9fb1a47fd97447d66468585efb766753efcc915447e42e079",
+          "sha256": "904a7936db85dd734c32f089612c8ad5e3a266f0064ba4b7640e1f33b7614682",
+          "sha1": "ddac25186078ddd68c13e9cecd056df3a805d90f",
+          "md5": "de2a7164f9af3f179a8212e9baf19736"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-iossimulatorarm64-0.7.0-metadata.jar",
+          "url": "core-permission-iossimulatorarm64-0.7.0-metadata.jar",
+          "size": 3170,
+          "sha512": "d5548aefdd77c59e4edc0f4bfab9797881acb956a9a2912f5766eab8b187a7bb207c8f01597b56c79950e56bb7fad4815a68d53a0dbc1282f5354643031ff738",
+          "sha256": "fa8e5e0aef60c292b95629e0de96beaa011ba4f4425263ec9fdb062461a55e10",
+          "sha1": "3c5dbc3e486f6193337cb61ffc243cc4e5a9d967",
+          "md5": "019f13eaac8905d3057281688ef74b6b"
+        }
+      ]
+    }
+  ]
+}

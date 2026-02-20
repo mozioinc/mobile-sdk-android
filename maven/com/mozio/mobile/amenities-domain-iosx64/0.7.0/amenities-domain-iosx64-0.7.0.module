@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../amenities-domain/0.7.0/amenities-domain-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "amenities-domain",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amenities-domain-iosX64Main-0.7.0.klib",
+          "url": "amenities-domain-iosx64-0.7.0.klib",
+          "size": 12820,
+          "sha512": "643dee307fd11634279c0e2303d3df36aeb6a6415f5df9c485f2f6dac55c7aa726c9b96a79a2192ef2eee15569f096f08e6e84e207a9b2f43fb37bd7d491d0e7",
+          "sha256": "432eb3ba09ccc4a97784e2a5c2a7f4cade461444501ac45495736c5051d50ad7",
+          "sha1": "2557100c333e07cd5d0d3fea6c03d5100ba2b1bb",
+          "md5": "8aa5c09bea6b5c765df8b00e46b3cc42"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amenities-domain-iosx64-0.7.0-metadata.jar",
+          "url": "amenities-domain-iosx64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "b64ab3fd1986539f96c259d33d4e045d0a7e8ff2822468b3e4672ba1bb89aced7c2f21fc9d5512cb8f220011082cb1a98ffda948ad0a769c9396c3d5654a3f49",
+          "sha256": "1d82f94ca81017364b9cb9c598dd402e115de5bb4322de820469c01ac6c8b7a7",
+          "sha1": "0697c81799905af62a0b46e5bcf12b65ce5a76ea",
+          "md5": "2ad7f33c9113b71295512b2eaa44ec74"
+        }
+      ]
+    }
+  ]
+}

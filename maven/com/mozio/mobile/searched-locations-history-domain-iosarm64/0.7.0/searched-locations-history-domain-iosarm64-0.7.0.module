@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../searched-locations-history-domain/0.7.0/searched-locations-history-domain-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "searched-locations-history-domain",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-domain-iosArm64Main-0.7.0.klib",
+          "url": "searched-locations-history-domain-iosarm64-0.7.0.klib",
+          "size": 31638,
+          "sha512": "c93096ee82f83cc6fec8081010256efda39f52ed89b9af496a5241026f07b17e0f46c949eb27431ec172fdc2d9515461a0bbce6e490f4df65b99b543a5f8c920",
+          "sha256": "9719e782ce3f45679b52cdfa56e3b8209e7b324a29d82d02c8c78d2115c74f41",
+          "sha1": "ba5d7017659bb78c97dda483d4521d0e742eb35e",
+          "md5": "ba6185f48bf498eab4e551ce516da2da"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-domain-iosarm64-0.7.0-metadata.jar",
+          "url": "searched-locations-history-domain-iosarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "a2d0b659017b3c08c3ef33af996ae719f9ab4383a4e19eb3df5e83ae0c537a56803395076610e3f844efa99db29abd26d7d16c2e90830ff2929b669d6375e5e9",
+          "sha256": "b4ff7ebc86075267abae55c90902689ab18075c1ec9ba38c730345e794c32d03",
+          "sha1": "c87323a31f99770f46b6e2da7b51c1a494b16bdc",
+          "md5": "adf576ba7ffd0573cbd014cb5cab84e7"
+        }
+      ]
+    }
+  ]
+}

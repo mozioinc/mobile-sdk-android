@@ -14,6 +14,17 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.7.0] - 2026-02-20 12:31:39 Z
+
+### What's new
+- Update `compileSdk` to `36`
+- Add more analytics events
+
+### Bug fixes
+- Fix return trip time selection
+- Fix crash when searching places with not-url-encoded symbols
+- Fix edge-case crash during booking flow
+
 ## [v0.6.0] - 2025-11-24 17:25:11 Z
 
 ### What's new

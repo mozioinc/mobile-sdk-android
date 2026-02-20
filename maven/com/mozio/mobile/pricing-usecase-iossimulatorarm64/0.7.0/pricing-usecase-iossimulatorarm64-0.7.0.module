@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pricing-usecase/0.7.0/pricing-usecase-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "pricing-usecase",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-usecase-iosSimulatorArm64Main-0.7.0.klib",
+          "url": "pricing-usecase-iossimulatorarm64-0.7.0.klib",
+          "size": 4958,
+          "sha512": "6e663e203fcde4562b8ae83850113dccd33a7e34c316efa468c2b2ff7f084501bb5da8395ff439eb150c81e12d7de5cca08291f58ac97cb32cc19483f68fe8d5",
+          "sha256": "776f2cd92911a71af8a55d33797ef70e2f8047e068cd91ff271e7640059ad5ad",
+          "sha1": "535385c0672486c3e96692e9ec5f2f55200bf2c2",
+          "md5": "0b23008e9ed8e5beb3ea5fff4aa1beb4"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-usecase-iossimulatorarm64-0.7.0-metadata.jar",
+          "url": "pricing-usecase-iossimulatorarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "040217cca9fb2d3828a0d3eb5886b0ff1ac7a32f640f7605b393b389423c310566652d0e8410e8a8b2bb8c74bdd15a83eee185e1f6d162bbc3cf01e5262af244",
+          "sha256": "b675f1b11f70db7edab1c83d5338971b55c69b5da96837f96afa67c95378381a",
+          "sha1": "f274abd0c692a74b7b9deb5e177c0089f6f4daa4",
+          "md5": "b229fb3e0ae57da0d593cdd4c5edc218"
+        }
+      ]
+    }
+  ]
+}

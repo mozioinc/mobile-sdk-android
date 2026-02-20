@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../countries-info-usecase/0.7.0/countries-info-usecase-0.7.0.module",
+    "group": "com.mozio.mobile",
+    "module": "countries-info-usecase",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-usecase-iosX64Main-0.7.0.klib",
+          "url": "countries-info-usecase-iosx64-0.7.0.klib",
+          "size": 4879,
+          "sha512": "f645e635d637cc2c80212c29d60a6985b9122dc49058035ee0bf5a9f3f6e551ba7c067145de31a7dbc91b56a68077dce8d2fe8348734c3d180de747d29e17463",
+          "sha256": "ecfa76df109a198fa00970a4659a350a6a15985e4627fc9abca22c591455c2f5",
+          "sha1": "078134cee5bda1ea1b1544acdc1d29c2ec87fa75",
+          "md5": "18ec4685785067139d7f648a46d9dd0b"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-data",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-usecase-iosx64-0.7.0-metadata.jar",
+          "url": "countries-info-usecase-iosx64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "31ce3fb36b6fb1d0a498ce7c00895607d4801f034334c7e49bbfe0cd89bec882b69b390af4823c56d3cab9ddbf4b94ade3741aabe7d91c297cda13677f6eeb0b",
+          "sha256": "cce1a00a0a65f59815867fbfed9e1dea0096277a69001525da7d8a4a8b59e09e",
+          "sha1": "b842ebaa2699167fd07b31321d71a0554ba09005",
+          "md5": "e55719ac131844e4c509a21ceef8b6c6"
+        }
+      ]
+    }
+  ]
+}
