@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile",
+    "module": "stripe-payments-domain",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-payments-domain-metadata-0.7.1.jar",
+          "url": "stripe-payments-domain-0.7.1.jar",
+          "size": 12694,
+          "sha512": "3308b4a9c7f631d518ecb1edbbb1f67b13ec2ffaaf8bc9bcc3a949dc1de8ed53bfb1717f69a2ccb1e595ed481c3d8ec7810814117c465af3f94f22a1b7e7bce1",
+          "sha256": "ceee81ef41ae33121a89b4baa57ef51af20db7a418a555ad4da1816eb743e262",
+          "sha1": "f48b05c59d75a22de9f221ee316d6ae243b6c907",
+          "md5": "997ff8463aee02d2090487a9e9e9a28c"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-android/0.7.1/stripe-payments-domain-android-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-android",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-android/0.7.1/stripe-payments-domain-android-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-android",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-iosarm64/0.7.1/stripe-payments-domain-iosarm64-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-iosarm64",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-iosarm64/0.7.1/stripe-payments-domain-iosarm64-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-iosarm64",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-iossimulatorarm64/0.7.1/stripe-payments-domain-iossimulatorarm64-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-iossimulatorarm64",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-iossimulatorarm64/0.7.1/stripe-payments-domain-iossimulatorarm64-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-iossimulatorarm64",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-iosx64/0.7.1/stripe-payments-domain-iosx64-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-iosx64",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../stripe-payments-domain-iosx64/0.7.1/stripe-payments-domain-iosx64-0.7.1.module",
+        "group": "com.mozio.mobile",
+        "module": "stripe-payments-domain-iosx64",
+        "version": "0.7.1"
+      }
+    }
+  ]
+}

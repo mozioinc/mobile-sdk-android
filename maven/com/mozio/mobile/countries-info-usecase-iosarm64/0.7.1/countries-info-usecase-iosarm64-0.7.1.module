@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../countries-info-usecase/0.7.1/countries-info-usecase-0.7.1.module",
+    "group": "com.mozio.mobile",
+    "module": "countries-info-usecase",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-data",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-usecase-iosArm64Main-0.7.1.klib",
+          "url": "countries-info-usecase-iosarm64-0.7.1.klib",
+          "size": 4892,
+          "sha512": "cc5d18b85f4cffb70e0f4ebe58ed73b615de2a98cbe89a3b9010a717e6f433dd043b2cf5d400de84d4e19de3d7011d5e5fbe928bb19bfe3d523defa833de9e6d",
+          "sha256": "4848eff1c87b1b7f42590e546709fbd4999031ec5f4f93cbfd6a350174d58b2d",
+          "sha1": "e4ef6900e715bec5c92cfdb83001844fb3f33213",
+          "md5": "ce984dfde3320ec65077ddfc3235e557"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-data",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-usecase-iosarm64-0.7.1-metadata.jar",
+          "url": "countries-info-usecase-iosarm64-0.7.1-metadata.jar",
+          "size": 261,
+          "sha512": "f1152f7bfbb68f56d98eb77258ecfad86ed7f793950e6ececd9ccf60655a62c5186746f788aa3ef2db8abc85b847a627d5e6e7f419821923e5533c7b419df804",
+          "sha256": "5a54766986b6670f5d2f577ee3162944049265d43c0ecaeb81e97670eeede454",
+          "sha1": "6647f3028890d2cf821e616f589a227bcfd780dd",
+          "md5": "f24c023e18dc9c1b4a1794c524602fc6"
+        }
+      ]
+    }
+  ]
+}

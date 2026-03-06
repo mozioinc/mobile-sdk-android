@@ -3,11 +3,11 @@
   <groupId>com.mozio.mobile</groupId>
   <artifactId>amenities-data-iosarm64</artifactId>
   <versioning>
-    <latest>0.7.0</latest>
-    <release>0.7.0</release>
+    <latest>0.7.1</latest>
+    <release>0.7.1</release>
     <versions>
-      <version>0.7.0</version>
+      <version>0.7.1</version>
     </versions>
-    <lastUpdated>20260220125102</lastUpdated>
+    <lastUpdated>20260306093953</lastUpdated>
   </versioning>
 </metadata>

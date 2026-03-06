@@ -3,11 +3,11 @@
   <groupId>com.mozio.mobile</groupId>
   <artifactId>mobile-sdk-bff</artifactId>
   <versioning>
-    <latest>0.7.0</latest>
-    <release>0.7.0</release>
+    <latest>0.7.1</latest>
+    <release>0.7.1</release>
     <versions>
-      <version>0.7.0</version>
+      <version>0.7.1</version>
     </versions>
-    <lastUpdated>20260220125401</lastUpdated>
+    <lastUpdated>20260306094253</lastUpdated>
   </versioning>
 </metadata>

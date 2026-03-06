@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../reservations-usecase/0.7.1/reservations-usecase-0.7.1.module",
+    "group": "com.mozio.mobile",
+    "module": "reservations-usecase",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-domain",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-data",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservations-usecase-iosSimulatorArm64Main-0.7.1.klib",
+          "url": "reservations-usecase-iossimulatorarm64-0.7.1.klib",
+          "size": 5013,
+          "sha512": "b54699fd99e8ec43b02d1166298b893a1f7732dd01a98855224029b5fe7e4c78e69848253d06b15b8bcdf6c91600413e2a68c2a021989cf324e5a09929ad2000",
+          "sha256": "40b1a5defe47a5d9497479396697f7f0867c37e965dae15cf3f165ca77190d64",
+          "sha1": "165d2d15677e3822bb94f9f5817f8a6903dfa9a7",
+          "md5": "21610c9aa95dacbbe82984e14cc51eb1"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-domain",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-data",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservations-usecase-iossimulatorarm64-0.7.1-metadata.jar",
+          "url": "reservations-usecase-iossimulatorarm64-0.7.1-metadata.jar",
+          "size": 261,
+          "sha512": "c138a6e283edefd1fdd49528f356464e8bc93e1cfdabe4a7b89af61533a581fa2c7bb9a61d6551572421c11c8b644697e440049ac2a6da5ae509a7d4ad4067d3",
+          "sha256": "f3cdd10bd80eb261c6f5ffb8c402970296489cd286e5489f0611f4c4bb24f61e",
+          "sha1": "38d72d05cef31d2f4a1ff9b1826b879606203bb5",
+          "md5": "3f823d56ae366e8446b21da7b60ca9e5"
+        }
+      ]
+    }
+  ]
+}

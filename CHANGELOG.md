@@ -14,6 +14,11 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.7.1] - 2026-03-06 09:19:31 Z
+
+### Bug fixes
+- Fix crash when app is restored with invalid contact details
+
 ## [v0.7.0] - 2026-02-20 12:31:39 Z
 
 ### What's new

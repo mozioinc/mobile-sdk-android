@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../search-usecase/0.7.1/search-usecase-0.7.1.module",
+    "group": "com.mozio.mobile",
+    "module": "search-usecase",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-data",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "search-usecase-iosArm64Main-0.7.1.klib",
+          "url": "search-usecase-iosarm64-0.7.1.klib",
+          "size": 4884,
+          "sha512": "18ac81d350a1d4df88b0ef0231eaf0e79c7f26c7d756a49b05df2d3ac0e00feef90918eed007a63f83830156d8fbd03ef4cbacf9568e869f31cd036935fd0212",
+          "sha256": "a6a308d326a288e9daf47948d8dd9f0b7ae4400852d85444e302f9e86ca87d7a",
+          "sha1": "da3f73d54820054061b22ca05fdfd1f3782e3ea1",
+          "md5": "d981587f631b499ae65f78e9f3d5ef16"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-data",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "search-usecase-iosarm64-0.7.1-metadata.jar",
+          "url": "search-usecase-iosarm64-0.7.1-metadata.jar",
+          "size": 261,
+          "sha512": "186e4d1a741d3c3e801156cc96b7465152b61d798879a8037c00b5fcaa69e77cddfd3d0a7499ace5e2c5d4d0a1cf7e7e0fbe066204e9142f34197cb3092dacf2",
+          "sha256": "3a7d56682c52d1b891953c1b71bc95fec42e5e422058758254ba735c00ccd228",
+          "sha1": "3d56f2e54b8753e348bac80081282fc920999748",
+          "md5": "94b40bdafb947f98152affa6f29ff2d1"
+        }
+      ]
+    }
+  ]
+}
