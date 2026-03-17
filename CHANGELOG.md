@@ -14,6 +14,12 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.8.0] - 2026-03-17 15:27:28 Z
+
+### What's new
+- Update koin to `v4.1.1`
+- Update kotlin to `v2.3.20`
+
 ## [v0.7.1] - 2026-03-06 09:19:31 Z
 
 ### Bug fixes

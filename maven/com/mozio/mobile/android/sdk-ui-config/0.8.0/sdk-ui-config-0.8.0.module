@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "sdk-ui-config",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api-config",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-config-0.8.0.aar",
+          "url": "sdk-ui-config-0.8.0.aar",
+          "size": 8594,
+          "sha512": "42caa163137e587a71fb15f6a05c8854a45f9119e4d4d4263951be3564b8e0511d9721c5378e2373ba0315a79491cc635d24a11a6bedf8ebe871a7a5a258d992",
+          "sha256": "fa171ba2ad50b4cca3269ef3814e08cf04a5c047069e2e2003c8e018735848eb",
+          "sha1": "c83362ede8e699aa40dfb67bdbab2e5c59c32e7f",
+          "md5": "df6931aa1f4fd3953849749b62ac0e74"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api-config",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-config-0.8.0.aar",
+          "url": "sdk-ui-config-0.8.0.aar",
+          "size": 8594,
+          "sha512": "42caa163137e587a71fb15f6a05c8854a45f9119e4d4d4263951be3564b8e0511d9721c5378e2373ba0315a79491cc635d24a11a6bedf8ebe871a7a5a258d992",
+          "sha256": "fa171ba2ad50b4cca3269ef3814e08cf04a5c047069e2e2003c8e018735848eb",
+          "sha1": "c83362ede8e699aa40dfb67bdbab2e5c59c32e7f",
+          "md5": "df6931aa1f4fd3953849749b62ac0e74"
+        }
+      ]
+    }
+  ]
+}

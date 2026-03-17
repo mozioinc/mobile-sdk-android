@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../searched-locations-history-usecase/0.8.0/searched-locations-history-usecase-0.8.0.module",
+    "group": "com.mozio.mobile",
+    "module": "searched-locations-history-usecase",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-data",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-usecase-iosX64Main-0.8.0.klib",
+          "url": "searched-locations-history-usecase-iosx64-0.8.0.klib",
+          "size": 4878,
+          "sha512": "3af6d76a165e362e384bf0aab5a90470c659b2616900df40382a5f6cff7a7c2c8ec5756b4408e6116048d27791ccc34523c66a7e46e797e8fe65464eeb7b9170",
+          "sha256": "cce1da8cf6a13b36b420e57650484096716865c253570a619ba5cb5f078ec442",
+          "sha1": "5d952b4fd87a9eb0f1d5f819f6dc450519359aa6",
+          "md5": "c71aa7e37decfa73903a225b0d478bc4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-data",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-usecase-iosx64-0.8.0-metadata.jar",
+          "url": "searched-locations-history-usecase-iosx64-0.8.0-metadata.jar",
+          "size": 261,
+          "sha512": "b9ec81bffb57023d7e9234b847a026e8c8c432a6695c698637cc3336b021d4ba1b8132bb8e6727cbcb9d99f28fdba0eba243ee88f5c0d0b09fca1f5a5e00b298",
+          "sha256": "9c1a721efe09b68b09ceee7fffa234cedf75bb6d45a94f30fd866b1727d2f990",
+          "sha1": "7e05528c2f585f21f140850df30e28fbbf8b94a5",
+          "md5": "ac7ebc8baee3b49d20235643d8030e9e"
+        }
+      ]
+    }
+  ]
+}

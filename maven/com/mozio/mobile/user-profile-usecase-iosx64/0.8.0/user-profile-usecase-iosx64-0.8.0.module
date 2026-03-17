@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../user-profile-usecase/0.8.0/user-profile-usecase-0.8.0.module",
+    "group": "com.mozio.mobile",
+    "module": "user-profile-usecase",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-profile-domain",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-profile-data",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "user-profile-usecase-iosX64Main-0.8.0.klib",
+          "url": "user-profile-usecase-iosx64-0.8.0.klib",
+          "size": 4852,
+          "sha512": "cfaddf773909f198d8a3ad00d2a4b9c7c25fb838afbaeceea844df1802081ba41152f74a1907d532f9fd3981af63a0a11d31c6f817666cfe75b691349fb84c77",
+          "sha256": "6fca5fa1e7eb5394247c7c28066d73fc42a5a96555c02386b490dc165e562f28",
+          "sha1": "0e0a24375a6055c1f4f7be7c4ae7dc172f5948c7",
+          "md5": "fde788932759e243725b9b0f4a4aa1e7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-profile-domain",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "user-profile-data",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "user-profile-usecase-iosx64-0.8.0-metadata.jar",
+          "url": "user-profile-usecase-iosx64-0.8.0-metadata.jar",
+          "size": 261,
+          "sha512": "b45e867741ea465da3f5e28fed6b5af709921e52c5db310042bc6405bbe258a1e6f21493f2a81009a57d5c5a0fd288fc370a13167bc3c73f672cdd10cd1790ab",
+          "sha256": "bc17e984602da2bdac8ab85ffd07a5b19ee6fefea7ab04ab6fbfc7099d30d5a8",
+          "sha1": "ebfeef21de7bb2b9d1638d05f79afd817f218480",
+          "md5": "15c0b70b0811c07cf86a99c3fabc0aa3"
+        }
+      ]
+    }
+  ]
+}

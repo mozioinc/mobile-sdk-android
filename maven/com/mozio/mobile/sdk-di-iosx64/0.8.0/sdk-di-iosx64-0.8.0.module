@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-di/0.8.0/sdk-di-0.8.0.module",
+    "group": "com.mozio.mobile",
+    "module": "sdk-di",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-di-iosX64Main-0.8.0.klib",
+          "url": "sdk-di-iosx64-0.8.0.klib",
+          "size": 7223,
+          "sha512": "baaa436b949da58b3a602dbd3e48653f0d35b34a8f1bbda6ac3d07eaebb1daf8d08a5b35706e4c9f835d616a2917a06ad5fa9dc67153598a27e751c500f9da42",
+          "sha256": "959b4f8b6b2f83876d2d60601deeefcf276d2b3716d7c8f44bda5dd665c873e3",
+          "sha1": "ccb5d523d5040a33041b8a1b95ca1bb0d6fa3e69",
+          "md5": "afcb55091ad0173b58289c7c033e5d01"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-di-iosx64-0.8.0-metadata.jar",
+          "url": "sdk-di-iosx64-0.8.0-metadata.jar",
+          "size": 261,
+          "sha512": "2c3796bea6548f2c7b793fb9c000a2b6211afd6f7896630f8d7ea9f845ef7501bc89608cf1128351b3f0522dfab46397678b3a378f956e98cb38a9e4e8e35f13",
+          "sha256": "5ab0f29d5a5d554c9b6ac0fb7fae9befb854f07bc18b77477cf476e4af51304c",
+          "sha1": "e4fc105cc92d4946bf05285fc9036deb036b623f",
+          "md5": "c1950288ace44940a537a4ccc608ea0b"
+        }
+      ]
+    }
+  ]
+}

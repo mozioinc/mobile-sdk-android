@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pricing-usecase/0.8.0/pricing-usecase-0.8.0.module",
+    "group": "com.mozio.mobile",
+    "module": "pricing-usecase",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-data",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-usecase-iosX64Main-0.8.0.klib",
+          "url": "pricing-usecase-iosx64-0.8.0.klib",
+          "size": 4734,
+          "sha512": "4799bda0ea5b4d8989b262213fd346a21a896fe5594e6c2bcb187e8705ba7f98677db0ce0775eb4b861788732b4bf91593b8bf4338a64fa2a1556205ab67cb16",
+          "sha256": "3315e6fa750c9ebdc21c02e3c91d0b94b59bd1987d866f9cc9b32316cfc93cfc",
+          "sha1": "f79dfea9ba137dc55e0661d587628c19d964c1de",
+          "md5": "19f4ac690731f287bb2ba6628957a1e8"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-data",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-usecase-iosx64-0.8.0-metadata.jar",
+          "url": "pricing-usecase-iosx64-0.8.0-metadata.jar",
+          "size": 261,
+          "sha512": "1fe53e58bef1d4b37642f05ec8d877b7339b8f93d7a49e88e6b1d69e5144143d7f460125cc304308ba2101e06b66288eec8aad5ce764dc763f6295961df6d899",
+          "sha256": "1b456ce079d4fe720e4682f13a5fa3208cf5713b43b16027e112711f66c6ff37",
+          "sha1": "7986da604c7be9a5824a7895b0e3e41387f5dace",
+          "md5": "850ccdd0ab024d29d5f71e632952bddc"
+        }
+      ]
+    }
+  ]
+}
