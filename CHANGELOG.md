@@ -14,6 +14,11 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.9.1] - 2026-05-21 23:27:05 Z
+
+### Bug fixes
+- Hide seconds when formatting date/time
+
 ## [v0.9.0] - 2026-05-21 22:16:51 Z
 
 ### What's new

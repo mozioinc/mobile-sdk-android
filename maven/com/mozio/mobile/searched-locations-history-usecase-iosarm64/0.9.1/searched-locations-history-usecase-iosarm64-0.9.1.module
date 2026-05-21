@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../searched-locations-history-usecase/0.9.1/searched-locations-history-usecase-0.9.1.module",
+    "group": "com.mozio.mobile",
+    "module": "searched-locations-history-usecase",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.24.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-data",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-usecase-iosArm64Main-0.9.1.klib",
+          "url": "searched-locations-history-usecase-iosarm64-0.9.1.klib",
+          "size": 4890,
+          "sha512": "dfcead4001ed638da408e3da2b165b6cd102fc5d4f9d881d5cf7e03c095bd56d586efd12ae20657df4e7aea8508584e6b9c3005f5a26e10a709bf255c4c075c0",
+          "sha256": "aeb17f911dc48f6b951faadd4f1631811ea9a16a56c76fb8dc7a24c9187b41b5",
+          "sha1": "9d49238f0ede20372f510adc683ff757a46b8dde",
+          "md5": "537f6fbe356d52e0fbeedfe34403b8dc"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.24.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-data",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-usecase-iosarm64-0.9.1-metadata.jar",
+          "url": "searched-locations-history-usecase-iosarm64-0.9.1-metadata.jar",
+          "size": 261,
+          "sha512": "3df85b1acd6ee4963abdf261aa32f3bd4ab8eab19806ddc4c8fba82f6f906b2b5b575ec96274210c2ec3fa6385c43b4273177aca52886691e8003c665d36c2e9",
+          "sha256": "bc4c2fb1600ddbd7e4e169613ada31ca2334a4b6d369f3bbde6ba0f11528a0b4",
+          "sha1": "4b1eedf7790694604cc1fd3241e3ecced6656855",
+          "md5": "3183e2a6e01dc6e2f2f37e85fc80b14f"
+        }
+      ]
+    }
+  ]
+}
