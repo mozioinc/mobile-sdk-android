@@ -14,6 +14,12 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.9.0] - 2026-05-21 22:16:51 Z
+
+### What's new
+- Add new locales (Catalan `ca`, Japanese `ja`, Indonesian `in`, Polish `pl`, Swedish `sv`, Russian `ru`, Vietnamese `vi`, Simplified Chinese `zh-CN`, Traditional Chinese `zh-TW`, Korean `ko`, Thai `th`)
+- Add share ride status option
+
 ## [v0.8.0] - 2026-03-17 15:27:28 Z
 
 ### What's new

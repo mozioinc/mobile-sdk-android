@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../search-usecase/0.9.0/search-usecase-0.9.0.module",
+    "group": "com.mozio.mobile",
+    "module": "search-usecase",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-data",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "search-usecase-iosSimulatorArm64Main-0.9.0.klib",
+          "url": "search-usecase-iossimulatorarm64-0.9.0.klib",
+          "size": 4807,
+          "sha512": "fc0a9700cc9aa97989b230a97f58a719ca0238fdbc4d617d137cd2702cd8780ec920ee21c02acad4c05bd066b621188503a4146e971159504a8c430358e81a93",
+          "sha256": "270716e47dd008fa905ef14eb607d94c871bd003d206c9d804d07a85da981b77",
+          "sha1": "373284353e521c7a3e71e69a8959c0488c242c0e",
+          "md5": "ec5ab615bd4f78f5098dcf7048dba0de"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-data",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "search-usecase-iossimulatorarm64-0.9.0-metadata.jar",
+          "url": "search-usecase-iossimulatorarm64-0.9.0-metadata.jar",
+          "size": 261,
+          "sha512": "1d8033f83946382dd501757506d22e1b6c5dae6c48077d859ef11bc08ef8742fc2b4f68bcd5f9be4e45a7149687c8ba46f351b0b7dc6541d275ff5fa49f76bb8",
+          "sha256": "0a16bbe9d63574663fe85c924e207bcf58f485a08cb06cf8eaf3159e80a2e68a",
+          "sha1": "c942307fa70b99b4b5c9659314aa31042a74ed1f",
+          "md5": "952463ec2ad309d709f2bbac489abdd9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coupons-usecase/0.9.0/coupons-usecase-0.9.0.module",
+    "group": "com.mozio.mobile",
+    "module": "coupons-usecase",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "coupons-domain",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "coupons-data",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "coupons-usecase-iosSimulatorArm64Main-0.9.0.klib",
+          "url": "coupons-usecase-iossimulatorarm64-0.9.0.klib",
+          "size": 4812,
+          "sha512": "efcb952566e92cf854c60ccc8c9dadfa399497503c2606c43434f76a15aa9d0c5416d3e28fae6477d7b2e3cb4662f4c228e8d20edf9e74a08aa5f8b9ebe2286d",
+          "sha256": "b8ae82ccc73e204fe6916ca861a2c0759371fe4d15e4c92b7df50dca83993839",
+          "sha1": "e8e6a2b3c03e5184e483dece14398902107f0737",
+          "md5": "229f33e86d249204cce62e2d7c14d1d3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "coupons-domain",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "coupons-data",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "coupons-usecase-iossimulatorarm64-0.9.0-metadata.jar",
+          "url": "coupons-usecase-iossimulatorarm64-0.9.0-metadata.jar",
+          "size": 261,
+          "sha512": "bcb5ea2b1f6a8ecb749a5849dc1e18565913519b2ec47d4f999329e77c8a815787fc86d350e6d89d9ae3f6f9f61bde07bddb2f4361002c147e225085db24df9a",
+          "sha256": "9b2c5d2044cdfbab21eb4d376ea1aef2012bc6563cf8cf61cf48c18484250965",
+          "sha1": "01af115bb73218b53caf6affa5e8525ca61a1e5a",
+          "md5": "303383447a93c1cb9eb3d4068239ec34"
+        }
+      ]
+    }
+  ]
+}
