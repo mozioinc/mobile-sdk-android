@@ -78,6 +78,20 @@ MozioSDK.FindReservationBottomSheet() // This will open the Mozio find reservati
 
 ---
 
+## 🎬 SDK in Action
+
+See the Mozio Android SDK features demonstrated in the sample app:
+
+**Search rides & booking flow** — search for available rides, compare options, and complete a booking.
+
+[![Search rides & booking flow](docs/screenrecordings/search_rides_and_booking_flow_preview.png)](https://github.com/user-attachments/assets/02630a46-6ab3-4112-ae56-0b4fbf2d6ad8)
+
+**Booking details & live ride tracking** — view booking details and track a ride in real time.
+
+[![Booking details & live ride tracking](docs/screenrecordings/booking_details_and_ride_live_tracking_preview.png)](https://github.com/user-attachments/assets/39c47ea0-aa92-4e3a-b8d0-3642280a7446)
+
+---
+
 ## 🎨 Customizing the SDK
 
 ### SDK initialization

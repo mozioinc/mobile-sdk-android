@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Mobile SDK Android Sample App</string>
+    <string name="consumer_app_title">Partner App</string>
+    <string name="consumer_app_subtitle">The buttons below launch flows powered by the Mozio SDK</string>
     <string name="search_rides_button">Search Rides</string>
     <string name="find_reservation_button">Find Reservation</string>
 </resources>

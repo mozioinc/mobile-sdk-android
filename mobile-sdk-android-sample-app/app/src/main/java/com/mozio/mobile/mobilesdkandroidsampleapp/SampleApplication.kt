@@ -12,7 +12,8 @@ class SampleApplication: Application() {
         MozioSDK.init(
             application = this,
             environment = Environment.TESTING,
-            apiKey = ApiKey("YOUR_MOZIO_API_KEY")
+            apiKey = ApiKey("YOUR_MOZIO_API_KEY"),
+            lightColors = sampleLightColorsConfig,
         )
     }
 
