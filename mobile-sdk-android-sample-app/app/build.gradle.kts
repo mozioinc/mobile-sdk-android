@@ -39,6 +39,7 @@ android {
         }
     }
     buildFeatures {
+        buildConfig = true
         compose = true
     }
 }
@@ -54,6 +55,7 @@ dependencies {
     implementation(libs.androidx.material3)
     // This is for the Mozio Android SDK
     implementation(libs.mozio.mobile.sdk.ui)
+    implementation(libs.kermit)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
