@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile",
+    "module": "pricing-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-usecase-metadata-0.10.0.jar",
+          "url": "pricing-usecase-0.10.0.jar",
+          "size": 2472,
+          "sha512": "792c517d285287bdd774080f0ad79451076b38dcadf9936d5061f73110d50d7f0fdcf48f2df2eaab28236e71d82f81b852752dafa968d8783215a2484aad75d5",
+          "sha256": "3e96e303ae12754f36e560d3103b720ecb8d9f8bd87891fef58ab72ca3d89264",
+          "sha1": "4f86553e22e027f972441c787799a52b91fbd23e",
+          "md5": "1118f769e9457750f9719794b5186603"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-android/0.10.0/pricing-usecase-android-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-android",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-android/0.10.0/pricing-usecase-android-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-android",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-iosarm64/0.10.0/pricing-usecase-iosarm64-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-iosarm64",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-iosarm64/0.10.0/pricing-usecase-iosarm64-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-iosarm64",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-iossimulatorarm64/0.10.0/pricing-usecase-iossimulatorarm64-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-iossimulatorarm64",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-iossimulatorarm64/0.10.0/pricing-usecase-iossimulatorarm64-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-iossimulatorarm64",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-iosx64/0.10.0/pricing-usecase-iosx64-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-iosx64",
+        "version": "0.10.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pricing-usecase-iosx64/0.10.0/pricing-usecase-iosx64-0.10.0.module",
+        "group": "com.mozio.mobile",
+        "module": "pricing-usecase-iosx64",
+        "version": "0.10.0"
+      }
+    }
+  ]
+}

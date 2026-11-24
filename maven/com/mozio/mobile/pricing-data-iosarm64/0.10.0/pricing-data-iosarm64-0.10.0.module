@@ -1,0 +1,233 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pricing-data/0.10.0/pricing-data-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "pricing-data",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-data-iosArm64Main-0.10.0.klib",
+          "url": "pricing-data-iosarm64-0.10.0.klib",
+          "size": 50356,
+          "sha512": "2003411bd697993557f8b2e53be80ba20f11214fa3c232abc85977103608a5b83a12a031f3e0c3c04a3b1e68c49df5362e20e179988f9e35c38a970145a8e670",
+          "sha256": "dc50f41d3e97559c5d2a4b20e65bb102ed13e92cab49b3b0e8f508cadfe0a6f1",
+          "sha1": "16e0fc54bc287bf84d915fc2bd962257af0222e1",
+          "md5": "52a805d3e20e129f654ff791cc6d046a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "pricing-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-data-iosarm64-0.10.0-metadata.jar",
+          "url": "pricing-data-iosarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "581e6edfb75459ef4aa6db070c1f96c8d15437a2faf006c3b5066fbb3a5098fa0bad17fa315e389a593cadf5d8d8d7f17bcd04e6e32bffca26ec4959bbfae030",
+          "sha256": "0210237c02d50dc6345b7b18258c846fd1fc766b454b25411fd952887e15671a",
+          "sha1": "5911bcb0184a0cc475117e8b8907026f3baa074f",
+          "md5": "a277e8b76683e4ccb2ab4d2661589007"
+        }
+      ]
+    }
+  ]
+}

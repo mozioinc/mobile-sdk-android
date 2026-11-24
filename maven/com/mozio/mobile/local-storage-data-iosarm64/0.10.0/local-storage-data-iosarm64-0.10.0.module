@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../local-storage-data/0.10.0/local-storage-data-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "local-storage-data",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings-serialization",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings-coroutines",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "local-storage-data-iosArm64Main-0.10.0.klib",
+          "url": "local-storage-data-iosarm64-0.10.0.klib",
+          "size": 9944,
+          "sha512": "b239b30d8f7eb1d0c2d19a21856dc65eb730161f4cf3117f6383de887aa54a403d15c9348e98a4982a0773ca6b4bc3ec9667df4f60caa1006e4002b28a439327",
+          "sha256": "7d102b0fc1440ce4b6fdbf409aed8b1caa2e26f0251e5ff750652ad115d42ad2",
+          "sha1": "4759cebb4817b2e010ba287cd26b39d152ec2f4c",
+          "md5": "31c685fd321446629a36d80d797ce77b"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings-serialization",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings-coroutines",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "local-storage-data-iosarm64-0.10.0-metadata.jar",
+          "url": "local-storage-data-iosarm64-0.10.0-metadata.jar",
+          "size": 2492,
+          "sha512": "bd76179e72f23d31b7bdaf4f5109bed351cb018adc3c0972b171d73cffcf3a6cdd1654f0ccf8ab0653e0ad1cd06b87340a884e7e7651ef78e7ab31dd65e7d93f",
+          "sha256": "2020dade90b715121fd751fd391bfe8b6c207043e77ea82d50f02e43c4acf3a3",
+          "sha1": "19446271a1a42b73ef7868862c5c22e5ab31154c",
+          "md5": "d6f2c21c82ebf49c5e118a46af7977c3"
+        }
+      ]
+    }
+  ]
+}

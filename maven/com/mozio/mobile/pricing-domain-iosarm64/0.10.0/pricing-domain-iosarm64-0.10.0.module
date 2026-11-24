@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pricing-domain/0.10.0/pricing-domain-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "pricing-domain",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-domain-iosArm64Main-0.10.0.klib",
+          "url": "pricing-domain-iosarm64-0.10.0.klib",
+          "size": 23503,
+          "sha512": "782553858b624165acd2e46cd1f2e52cd1a9b7071b88d6669a883760d8a6eaf3425fc842ff398acc8f921301225f6e31c9b71e93ec1f3bc657658b3a01cf7aac",
+          "sha256": "09a045f8f9fb0517011a7b9feab736b64cb7f32ddf73f7705ff1669a60d8fd86",
+          "sha1": "b7fdcf30269f94b0c0c1b99baa58cd2acd2b8790",
+          "md5": "d94ee9e2d9937f73e1498e71c254d301"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pricing-domain-iosarm64-0.10.0-metadata.jar",
+          "url": "pricing-domain-iosarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "f7434764765390a5c29e7f597f0a31b2bfdef4b637f5488f78a7ade76ed16730e2efb04c575e4cb752a57bb05af7d7d3570a6080c4b1d2650c4690c453674814",
+          "sha256": "9cd5b1d40f1ab7b60335bb78456ce77b9ce2e73088fe5561c664478c0e7ad90f",
+          "sha1": "9541b0f408044f7aba94ef2da3a5880170cacb2a",
+          "md5": "cd49ce913b6c2c6921582c73d8ae2fc2"
+        }
+      ]
+    }
+  ]
+}

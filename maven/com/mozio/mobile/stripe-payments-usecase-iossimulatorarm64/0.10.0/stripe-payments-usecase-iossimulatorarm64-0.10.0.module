@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../stripe-payments-usecase/0.10.0/stripe-payments-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "stripe-payments-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-payments-usecase-iosSimulatorArm64Main-0.10.0.klib",
+          "url": "stripe-payments-usecase-iossimulatorarm64-0.10.0.klib",
+          "size": 6382,
+          "sha512": "fb86f684c214718d89d506b13d58e5f6e9fed82132f658ce4f0d5805c16c079ec18827f37d708f6bc987bd67fa841abe2899826786641e4a91597c2dda57f45b",
+          "sha256": "8357e65fd3814dc148d0f9cf248b8773a1ca4fe9308788fd71dbff228080a461",
+          "sha1": "d2e6ab0284c3c75a3249a0b0f79a1d2d87304f4c",
+          "md5": "e6cda029bb5b6550d29cf181db3743f4"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "stripe-payments-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-payments-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "url": "stripe-payments-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "4f57004a83c7b3384e5f4eea33ea7ecc2a2668d50888d8690af71e207745789a47046f3dbde7728d0c075033651b368380e7a2a61abb51a810058c1790302a0b",
+          "sha256": "1ff39b4b72a98bb2a033f5af093675f334e36ff8e289f74882c4d23b0607c994",
+          "sha1": "165912c6d1b5a760c328fd11b37467ae6db9ec69",
+          "md5": "2cb24a8f91ed97e09e26158843b1fbe4"
+        }
+      ]
+    }
+  ]
+}

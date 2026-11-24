@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-permission/0.10.0/core-permission-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "core-permission",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-iosX64Main-0.10.0.klib",
+          "url": "core-permission-iosx64-0.10.0.klib",
+          "size": 33614,
+          "sha512": "a7278aacd3867ad45cde3f3b49fe1111689fbc964783fa61d417fe436b1d57fad1ec5c84a4e946752945abc52947d7dd008891b40a0a7d1b7c764903176979d9",
+          "sha256": "b432c99ba212043586faa296f700e0ffddb0d076cb41f06381d6e6cf8a5cd03c",
+          "sha1": "74fb2ee773566e5da96aec9ae7b68ad8fa447e13",
+          "md5": "e208ddf29fff53cc6f5ac7032b32590e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-iosx64-0.10.0-metadata.jar",
+          "url": "core-permission-iosx64-0.10.0-metadata.jar",
+          "size": 3185,
+          "sha512": "62db02ee6dc3990590720da4b50b7d39509a49038d7c34ea7f1552060946a2f3a42a9d2952eb9208109016c991effabe8277b8602553f3b7c4936815a03f9dc2",
+          "sha256": "7cd86ef09ef44dd8aad6766bc45213fc9850d8c6bf4b6615319f9a3c3b180719",
+          "sha1": "ebdfa20a29335c87a9a269d14ec3dda8bf89b458",
+          "md5": "ef9073e503b3fee589dacb9e765b0165"
+        }
+      ]
+    }
+  ]
+}

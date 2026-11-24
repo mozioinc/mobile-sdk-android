@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mobile-sdk-bff/0.10.0/mobile-sdk-bff-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "mobile-sdk-bff",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mobile-sdk-bff-iosArm64Main-0.10.0.klib",
+          "url": "mobile-sdk-bff-iosarm64-0.10.0.klib",
+          "size": 126261,
+          "sha512": "87abe3e85dc65a66a2b5dad98ffbe9ed4176393f976e0e38b8b82d5706c5567436c47aede7d07c47182f1c0b058e2502aae05cfd85613e4dab04b5c41552b79e",
+          "sha256": "129216bc4368f76098b76af068d8bbe8fb658d268366bc70f91dd7a8eab64b75",
+          "sha1": "ad7ba22c0452f9ef7528567f4d123b121c09e600",
+          "md5": "0bd6f4760af564ce873197efe3761b89"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mobile-sdk-bff-iosarm64-0.10.0-metadata.jar",
+          "url": "mobile-sdk-bff-iosarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "00949d026d95a9d493c0adc1032dddccac2d0beb091df622bea885311936921b1a9cbbdef151498ff5fc56b654e42881b29897a2ec5925dbdff4b6850c53836a",
+          "sha256": "34589e9eb43a7d62da0b3f9fd495c5a03b4dbe10a0da78d303e700740ccc6f96",
+          "sha1": "ef0b4810a29649fff832d6ced19c3616e2599af6",
+          "md5": "c1cfeaf6bd0cac07c046d0f23c71c11d"
+        }
+      ]
+    }
+  ]
+}

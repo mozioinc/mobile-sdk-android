@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-api-config-environment/0.10.0/sdk-api-config-environment-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "sdk-api-config-environment",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-api-config-environment-iosX64Main-0.10.0.klib",
+          "url": "sdk-api-config-environment-iosx64-0.10.0.klib",
+          "size": 8043,
+          "sha512": "f9bbd5b60cb4c86d6ce8243d345189eb29f6f73931f853700e048cb38f0f98ee00e15c8edda861f7e3270de7a0a3e7c6247a7a1b4b6185f2deb996aa5465b1f5",
+          "sha256": "2fa6c1409d055de5c1cfb40d78b03a542676cf7f782aab87b5c4208d7b36651a",
+          "sha1": "386deeb1b55292dd2311de13d221b9e31c8f779f",
+          "md5": "d88b58754c68396e7c02d9c492fc89da"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "search-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-api-config-environment-iosx64-0.10.0-metadata.jar",
+          "url": "sdk-api-config-environment-iosx64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "829c9e8f44f80e8b1d3f2a15a290d486a5794aead4e94b5693295022ff80c0b991dffa8acfa9da5c6d8b532dc53e5d1217c73ab554bf9333dd1b0196d197ef01",
+          "sha256": "5404d2470e64cdc6673f59fdea0ff22d29906a83360928d252b8d9d0f30423d6",
+          "sha1": "7e93405cf164f45100f872248714a3a3e7784ed0",
+          "md5": "8a92ac055a3ad2875af28ef6145afd67"
+        }
+      ]
+    }
+  ]
+}

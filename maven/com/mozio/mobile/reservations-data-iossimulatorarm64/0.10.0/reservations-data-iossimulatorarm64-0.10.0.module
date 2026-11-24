@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../reservations-data/0.10.0/reservations-data-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "reservations-data",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservations-data-iosSimulatorArm64Main-0.10.0.klib",
+          "url": "reservations-data-iossimulatorarm64-0.10.0.klib",
+          "size": 49484,
+          "sha512": "f8465d8b515ead6e3a4d9a129ba3cd8c92234e6587a4903aca43abb22673646a32ee0ee965e7cb76cfbef9ee6dbf1a82fdf1ccbe423043b849d31fff632dd8e4",
+          "sha256": "474920540ec9469a453110e91ea5aa554b9ff610052a517f75aef2bda95ad71c",
+          "sha1": "e4289673af24c7f3adb7f59860740e330fe25d08",
+          "md5": "6c6566a5044f4be6b4eecd2f75884961"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-http",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservations-data-iossimulatorarm64-0.10.0-metadata.jar",
+          "url": "reservations-data-iossimulatorarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "23589803c33ca26841f4cb837e9c8192971bb8008fadba6e77efae03c906e4f14dd0423e146a36f2f4993287310a50181e2ed276af515c24ac948938cbbe6271",
+          "sha256": "8d9373ca9534bfdfa6d0dfb09759e7116ce4aa6c282e53c81f68f8e8052c10fd",
+          "sha1": "dcbe64a53d484f6184ec24a308e48fe3684a040e",
+          "md5": "4046a0d19a30af54ede264f22c93c556"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../countries-info-domain/0.10.0/countries-info-domain-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "countries-info-domain",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-domain-iosSimulatorArm64Main-0.10.0.klib",
+          "url": "countries-info-domain-iossimulatorarm64-0.10.0.klib",
+          "size": 16393,
+          "sha512": "e21c1e8659bd5b3af7cfea589d075d3ad4693626904eb4cc7d22d68133ca6de81397363f70c6ef2355a3a36fe54f1368fb60196ab281ac80f8a8cb4d08f60927",
+          "sha256": "cf5c0140270b4dc3bceb433685fa5ce11d272d10abf905770179b68170b8d673",
+          "sha1": "1cc2e2e6a45faf8cf099ff094b59af53b88a865d",
+          "md5": "6904e84b80f788414e7c02bc676da341"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-bff",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-domain-iossimulatorarm64-0.10.0-metadata.jar",
+          "url": "countries-info-domain-iossimulatorarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "5a49c9cd29f4159f0db7e5e9febef760f4bb18d7e90170543853e8d8f6a4cd3faadb2ffb4a08fd36b9edf78693237e399cfa8b701e6b1fa4b43e7667cd99710d",
+          "sha256": "cba1925e4c19c91d691117a75714e745f2eeb134d438b8bb26b3cec61d0a6034",
+          "sha1": "b72e48ec4677f207836a81ac146215d2db474ba2",
+          "md5": "5c6efa196e69245db6c2019c8f93c177"
+        }
+      ]
+    }
+  ]
+}

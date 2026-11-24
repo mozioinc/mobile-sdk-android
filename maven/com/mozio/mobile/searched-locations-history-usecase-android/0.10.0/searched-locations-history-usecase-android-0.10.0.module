@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../searched-locations-history-usecase/0.10.0/searched-locations-history-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "searched-locations-history-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-usecase-release.aar",
+          "url": "searched-locations-history-usecase-android-0.10.0.aar",
+          "size": 2360,
+          "sha512": "1af6fd3c41005bfdb9898f09c2c222bc628437a1c6b175a437cd62895655f3f4b9507ae9d2b7173d4d30c75d6e397555b16ba5180a9b4a2c4a6fc634b6854fe4",
+          "sha256": "c485244ab931486d402a128029c97a4e93157b3e924920654f008a331fb4f35d",
+          "sha1": "a91580e40ab10aefe91938c5673785cb3cab5914",
+          "md5": "c1e3103e7c2604d87dbcaed317a2263c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.10.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-data",
+          "version": {
+            "requires": "0.10.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-usecase-release.aar",
+          "url": "searched-locations-history-usecase-android-0.10.0.aar",
+          "size": 2360,
+          "sha512": "1af6fd3c41005bfdb9898f09c2c222bc628437a1c6b175a437cd62895655f3f4b9507ae9d2b7173d4d30c75d6e397555b16ba5180a9b4a2c4a6fc634b6854fe4",
+          "sha256": "c485244ab931486d402a128029c97a4e93157b3e924920654f008a331fb4f35d",
+          "sha1": "a91580e40ab10aefe91938c5673785cb3cab5914",
+          "md5": "c1e3103e7c2604d87dbcaed317a2263c"
+        }
+      ]
+    }
+  ]
+}

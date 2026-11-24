@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../searched-locations-history-domain/0.10.0/searched-locations-history-domain-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "searched-locations-history-domain",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-domain-iosX64Main-0.10.0.klib",
+          "url": "searched-locations-history-domain-iosx64-0.10.0.klib",
+          "size": 31129,
+          "sha512": "e93d6b7781702451b6d327ea867f72ff9afdb8c9d6a5690422843a2b8f8b829a69b2a89dacb7a0d4bcb56b151f73a997a818d41800b3d3d72eb5c4e0c929cfe1",
+          "sha256": "f337e60b561072a652c90096a1ccb4616e34c56497183f21d86e6563415a1ad4",
+          "sha1": "d806b0d5d8d2f07329b1c0d9caecc852e60a43d3",
+          "md5": "ebda4ab3cf61b5bec0a9f88b869597b5"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-domain-iosx64-0.10.0-metadata.jar",
+          "url": "searched-locations-history-domain-iosx64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "6c390104cde7a72c66068db147e71dc67770f5807f30b97783dcad9417b5a628637bb0ae409dc846372e69a932a8ce1f5d063648ee9a90fc2fe1647e4b53b4f1",
+          "sha256": "76ec97d6890ca78944e063ed84c55fcca6d6e2ce08646ebb7762ab1857581ce8",
+          "sha1": "6a1fbac2067d93d3bb0d95db6a230bb311335353",
+          "md5": "ca74f37e9529b86eb9ceaeb3c9d3eb6b"
+        }
+      ]
+    }
+  ]
+}

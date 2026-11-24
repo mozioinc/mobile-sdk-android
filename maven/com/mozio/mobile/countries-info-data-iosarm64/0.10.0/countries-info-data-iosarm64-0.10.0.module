@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../countries-info-data/0.10.0/countries-info-data-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "countries-info-data",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-data-iosArm64Main-0.10.0.klib",
+          "url": "countries-info-data-iosarm64-0.10.0.klib",
+          "size": 17291,
+          "sha512": "7eb806cfab2704e21236ad778ad95acc46a824c6a9e6ae55ae2e74564e7db0580de8f7d9933edce641968f85e8a116d9365e771cafafee89f5de0dcb40b1b329",
+          "sha256": "f4e19d3ed4e8c1deb8a1f884531a3807a2572044993c3a0ab5eacfd959c9bf7b",
+          "sha1": "9855a1da3cab6b54fa6439bf69bb12887237503c",
+          "md5": "4cef567b73d9d4d92c07bfd33dee6fa2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-data-iosarm64-0.10.0-metadata.jar",
+          "url": "countries-info-data-iosarm64-0.10.0-metadata.jar",
+          "size": 3320,
+          "sha512": "c198c45a64461c8c6f14fc95ab40c9011f3c66ca4d0ff9fc23100baaeb87d5d2d5c28d4df018844f5419871d064dcea86af9834c27fb420a5ee1cd9dbe5ee163",
+          "sha256": "dca5d9ce31271b5c10a383f60e4ec0fb28e38776eaeebdf2d4e63aa903d5d846",
+          "sha1": "062f542af5db608f1b13a0dcabe482b019a01009",
+          "md5": "a409133d4b25ba298b303a13713067d4"
+        }
+      ]
+    }
+  ]
+}

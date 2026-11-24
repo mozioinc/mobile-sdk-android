@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../reservation-details-usecase/0.10.0/reservation-details-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "reservation-details-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "reservation-details-usecase-iosArm64Main-0.10.0.klib",
+          "url": "reservation-details-usecase-iosarm64-0.10.0.klib",
+          "size": 6413,
+          "sha512": "6bc404442a6778aba20d1e59932afa67244a910916296c56f9a079401ca0c681996fc165556ab5239140cb715ec05529a22ed0b163be74bff3c846ba6039030a",
+          "sha256": "1fb81b037048de74262019d1597195e20fbfd8a5fca6000890f051f5179eb491",
+          "sha1": "3e3453936a9bcf206f54a678a15820890dc6b8b7",
+          "md5": "7dc86d5935393c8854b6aa78da44987d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "reservation-details-usecase-iosarm64-0.10.0-metadata.jar",
+          "url": "reservation-details-usecase-iosarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "3db5011f9c9223651b6fcd7ddcbfb0b2d157e19ee96e000bf8aa52f12452ee432ef8874112fa06d0aee9afd9ae48dc5edda03b86108876c031fa239e292d1966",
+          "sha256": "33551b1449a354d938192f516aa6f7c01d471adc01410aae10a624ad5e67672b",
+          "sha1": "328794c97ace7670387952035acbbdfefc75c49d",
+          "md5": "e9710030958146fde72a6ed50865aa34"
+        }
+      ]
+    }
+  ]
+}

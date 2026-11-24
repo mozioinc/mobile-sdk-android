@@ -1,0 +1,316 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "reservation-details-ui",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-usecase",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservation-details-ui-0.10.0.aar",
+          "url": "reservation-details-ui-0.10.0.aar",
+          "size": 821793,
+          "sha512": "3bf7bda1b473eabfa3fee3feccfeef0b25cfd49f92d0a1ba6bb7f68ae981fbf6c93a06f856f22ca46d29f500f378f47043bd7f16c3d8bc148b6d3e0602716570",
+          "sha256": "77f14d214cce296588c917f33ba0acf2610dc8177dec456766716808de8d0a9b",
+          "sha1": "a7ec70673092a34d313daa2b037b6366d6ff5bce",
+          "md5": "8126c59387a8c5a90b52b36783cfd230"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel"
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-ktor3",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-compose",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-svg",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "com.github.jeziellago",
+          "module": "compose-markdown",
+          "version": {
+            "requires": "0.5.7"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "googlemaps-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.google.maps.android",
+          "module": "maps-compose",
+          "version": {
+            "requires": "6.6.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "19.2.0"
+          }
+        },
+        {
+          "group": "com.google.maps.android",
+          "module": "maps-ktx",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "com.google.maps.android",
+          "module": "maps-utils-ktx",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie-compose",
+          "version": {
+            "requires": "6.6.7"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "sdk-analytics-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-di",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservation-details-usecase",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reservation-details-ui-0.10.0.aar",
+          "url": "reservation-details-ui-0.10.0.aar",
+          "size": 821793,
+          "sha512": "3bf7bda1b473eabfa3fee3feccfeef0b25cfd49f92d0a1ba6bb7f68ae981fbf6c93a06f856f22ca46d29f500f378f47043bd7f16c3d8bc148b6d3e0602716570",
+          "sha256": "77f14d214cce296588c917f33ba0acf2610dc8177dec456766716808de8d0a9b",
+          "sha1": "a7ec70673092a34d313daa2b037b6366d6ff5bce",
+          "md5": "8126c59387a8c5a90b52b36783cfd230"
+        }
+      ]
+    }
+  ]
+}

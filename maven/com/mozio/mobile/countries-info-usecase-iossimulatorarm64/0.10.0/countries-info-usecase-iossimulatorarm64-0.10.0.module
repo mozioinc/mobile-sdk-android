@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../countries-info-usecase/0.10.0/countries-info-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "countries-info-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-usecase-iosSimulatorArm64Main-0.10.0.klib",
+          "url": "countries-info-usecase-iossimulatorarm64-0.10.0.klib",
+          "size": 6358,
+          "sha512": "11d59413fd14b065e355eeefd9e6b08eb92effa8b6c8b1cdeecc5c834a9c3d83a08c54c90ff3858ff9b5fbfed2a3d4752a54b1fdd5c21aea6936a519e2c7f9ad",
+          "sha256": "8a0b088e04dc57a45053ae9b79b2d887c879832f30fd20796e722b19cb8556d5",
+          "sha1": "2897700c102347ddda08d550774a4b8741544236",
+          "md5": "4dae9eb701efbcdb905e289500919919"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "countries-info-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "countries-info-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "url": "countries-info-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "045e6922f85ef1a4f601a67f1135ac64018b71bec6c0c10769fd3c55fd326522e6a611ae24a927a15b06db6545b9033d9d2e052b14a6203e76e0d36088b75382",
+          "sha256": "eff359853c1b9bf11a92d318d31cfe462e0d37a12ad6c119bf8c06ab042beba0",
+          "sha1": "e401831c7bf794b729c77def6f3349ca3997100e",
+          "md5": "93507c7b443f605ef054604b3926888c"
+        }
+      ]
+    }
+  ]
+}

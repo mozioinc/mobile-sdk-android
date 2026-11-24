@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "myaccount-ui",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myaccount-ui-0.10.0.aar",
+          "url": "myaccount-ui-0.10.0.aar",
+          "size": 141583,
+          "sha512": "33161229227dd4f94cf6a14c5134679910e4d19955273cd652ab3605b0007a886fa94955af0e4a7d61ddd536a6cdc8570f62e980d12ea7123ab506f8bff7c6a7",
+          "sha256": "752fa610aed0850e1b18bcda8430eb84054622877c97e25c4496a1da399b5b94",
+          "sha1": "92d617425db8521fd0d45aa7925d629ea82bc34d",
+          "md5": "f4fb80a269cc07bb8e84f1e716cf48ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "authentication-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile.android",
+          "module": "country-phone-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-api",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-di",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "myaccount-ui-0.10.0.aar",
+          "url": "myaccount-ui-0.10.0.aar",
+          "size": 141583,
+          "sha512": "33161229227dd4f94cf6a14c5134679910e4d19955273cd652ab3605b0007a886fa94955af0e4a7d61ddd536a6cdc8570f62e980d12ea7123ab506f8bff7c6a7",
+          "sha256": "752fa610aed0850e1b18bcda8430eb84054622877c97e25c4496a1da399b5b94",
+          "sha1": "92d617425db8521fd0d45aa7925d629ea82bc34d",
+          "md5": "f4fb80a269cc07bb8e84f1e716cf48ec"
+        }
+      ]
+    }
+  ]
+}

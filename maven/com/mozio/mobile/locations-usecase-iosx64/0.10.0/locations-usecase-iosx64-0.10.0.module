@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../locations-usecase/0.10.0/locations-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "locations-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "locations-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "locations-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "locations-usecase-iosX64Main-0.10.0.klib",
+          "url": "locations-usecase-iosx64-0.10.0.klib",
+          "size": 6228,
+          "sha512": "a714da4d7e1b73b3cde6acab6d0b183c20206042b7fdb8759d1f1535d37018a708bdb9934b151bcecee6604efdb47889fe7feaa52fc6823c27b44665bbdaaf67",
+          "sha256": "1ffc0e6fd9e7affc6037af1e781de48c39a3baddaef2d683165b703e2f19f2d1",
+          "sha1": "eda61241765952af1c038585578632cd5b4386fc",
+          "md5": "d3a568e596cb1b44b19b3d23b5a7b375"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "locations-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "locations-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "locations-usecase-iosx64-0.10.0-metadata.jar",
+          "url": "locations-usecase-iosx64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "d1218bb25a21ac238843f9e2ccc15a2aa648aca7d6d884bffd49271bed00b2b01853f4e7e442d6d22b53c9d79c1ab25e12fee34e894885a1e351d1fb77b41b3c",
+          "sha256": "03cc56c46902b8ec861fe40043f8c4af1da210e2a7d8e2769d7c3ac29750b338",
+          "sha1": "b52ba77aa785cd12973ed8f2fe569d7ac6710525",
+          "md5": "3ab939c4319cbd4d4abf7aa7ff49899a"
+        }
+      ]
+    }
+  ]
+}

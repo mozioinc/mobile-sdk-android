@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../searched-locations-history-data/0.10.0/searched-locations-history-data-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "searched-locations-history-data",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "local-storage-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-data-iosArm64Main-0.10.0.klib",
+          "url": "searched-locations-history-data-iosarm64-0.10.0.klib",
+          "size": 12101,
+          "sha512": "b04e0e46687e08c86f14560aa0ba2e88d081dc5b423009406b6ab47b3c0b8bc86dd4faba30267dde7b1e68fdf202aa2b3f1d582b7e7e04a5b7df4c716eb1b82f",
+          "sha256": "ddb4aac41b0163fafee433493093d002514f77caf257305db69f769f26401956",
+          "sha1": "55df84c88508abdf8be1f480f22ea5a5abf80300",
+          "md5": "aee140948a697c3fca528e6b5bceb13c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-coroutines",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "searched-locations-history-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "local-storage-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "searched-locations-history-data-iosarm64-0.10.0-metadata.jar",
+          "url": "searched-locations-history-data-iosarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "f824e2d034fb3fde05ed49ce46049adb318ae029043a1b041757c526c143369402ca8ecb5b8592a1c1ba2947d4542d5774d78458fb4d66c6fbe99082ff595751",
+          "sha256": "925ddb69b2502065a15c7e18e9946454109092f29009a8306730968aaea466e2",
+          "sha1": "ecec059c776d0defce871901e63e1cddbf3228bf",
+          "md5": "9087035a33ffa8dfc6c19fb078567fa9"
+        }
+      ]
+    }
+  ]
+}

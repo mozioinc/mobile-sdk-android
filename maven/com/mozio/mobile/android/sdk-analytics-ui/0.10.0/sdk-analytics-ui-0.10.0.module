@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mozio.mobile.android",
+    "module": "sdk-analytics-ui",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-analytics",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-analytics-ui-0.10.0.aar",
+          "url": "sdk-analytics-ui-0.10.0.aar",
+          "size": 11730,
+          "sha512": "85bd24f9bc2e47cfb203f0bfcf6ee3d76747d96c653ea0dc5bea3a3081426e80fc8ea276885613a90adccfb906534ed2e6570942f6b97594996c3e077fa2e736",
+          "sha256": "3f8ad9a3bcf4c5938afa5525590b5e89f02b667bb59614dd79889a0f89001b1c",
+          "sha1": "f064b6c978a5f45fbda38cdaea283a215eda2511",
+          "md5": "c7a5a9833a750c256896212d144c62e0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose"
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose-viewmodel"
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-di",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "sdk-analytics",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-analytics-ui-0.10.0.aar",
+          "url": "sdk-analytics-ui-0.10.0.aar",
+          "size": 11730,
+          "sha512": "85bd24f9bc2e47cfb203f0bfcf6ee3d76747d96c653ea0dc5bea3a3081426e80fc8ea276885613a90adccfb906534ed2e6570942f6b97594996c3e077fa2e736",
+          "sha256": "3f8ad9a3bcf4c5938afa5525590b5e89f02b667bb59614dd79889a0f89001b1c",
+          "sha1": "f064b6c978a5f45fbda38cdaea283a215eda2511",
+          "md5": "c7a5a9833a750c256896212d144c62e0"
+        }
+      ]
+    }
+  ]
+}

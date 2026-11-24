@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-di/0.10.0/sdk-di-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "sdk-di",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-di-release.aar",
+          "url": "sdk-di-android-0.10.0.aar",
+          "size": 4031,
+          "sha512": "deffadb210a71ed452a2888ab046b9c0c48b791ac7fa1c58eadce20d9a4cfd8de497bdc1139da8128ba22b934510d94da1d0dfe1e2d899e5cdad0ccc3ba5eb7d",
+          "sha256": "f6520950b2de4246ef00aff2774349c540fd6dde34b82671299669d5fd7e28b7",
+          "sha1": "dd20b238a2599c2780e0e5593fa10a0a2a79216d",
+          "md5": "f5f4347f8280dbcb9dc9cbb68795d276"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-di-release.aar",
+          "url": "sdk-di-android-0.10.0.aar",
+          "size": 4031,
+          "sha512": "deffadb210a71ed452a2888ab046b9c0c48b791ac7fa1c58eadce20d9a4cfd8de497bdc1139da8128ba22b934510d94da1d0dfe1e2d899e5cdad0ccc3ba5eb7d",
+          "sha256": "f6520950b2de4246ef00aff2774349c540fd6dde34b82671299669d5fd7e28b7",
+          "sha1": "dd20b238a2599c2780e0e5593fa10a0a2a79216d",
+          "md5": "f5f4347f8280dbcb9dc9cbb68795d276"
+        }
+      ]
+    }
+  ]
+}

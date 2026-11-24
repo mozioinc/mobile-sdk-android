@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../authentication-usecase/0.10.0/authentication-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "authentication-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "authentication-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "authentication-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "authentication-usecase-iosSimulatorArm64Main-0.10.0.klib",
+          "url": "authentication-usecase-iossimulatorarm64-0.10.0.klib",
+          "size": 6379,
+          "sha512": "0a0428bffd29da6dc633f0b2aadf42a70d2ce47d2674c2bf9e35aa09dfe9f35dbb123c5cf0e151952e53938bcc4dfb81cf037facb2fcc49c6e48f1c8cbbf1e17",
+          "sha256": "1b07fffd8c53d4282f3c449beca2f717e8d1281d8f31c2390fad1b7e88267bf2",
+          "sha1": "51c0ba3191e6dec6c2297c359895506d3da138f9",
+          "md5": "1972fb747f49456703e38e95cdd37430"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "authentication-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "authentication-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "authentication-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "url": "authentication-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "82a1c84824bdb3e529e58c079f4dbb960c5e249b929c1e4ffdbaf0583df3148ede83550a30ecce17d3bf899d8763100c7f4504e8b527f640a95f75f15168d9df",
+          "sha256": "135c26be9369a895737fe557ab0a478d62f86ca22bee301c719505d96462ef02",
+          "sha1": "7d1880d58902cce6a604982c4666853a757caed4",
+          "md5": "f9578cb18a0cb8b2d7cc18c2fe098042"
+        }
+      ]
+    }
+  ]
+}

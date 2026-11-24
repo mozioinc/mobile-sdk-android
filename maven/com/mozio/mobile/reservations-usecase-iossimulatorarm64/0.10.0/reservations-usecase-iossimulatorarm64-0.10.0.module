@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../reservations-usecase/0.10.0/reservations-usecase-0.10.0.module",
+    "group": "com.mozio.mobile",
+    "module": "reservations-usecase",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "reservations-usecase-iosSimulatorArm64Main-0.10.0.klib",
+          "url": "reservations-usecase-iossimulatorarm64-0.10.0.klib",
+          "size": 6332,
+          "sha512": "12fa4823b158253cad17a2856cfb5aa82ba027ded32a8288039aab38796ca2644036ebf25dea85976e6fb99bef6d54b69f2c571983d219269666a306998c1e2d",
+          "sha256": "87e17111223a9d218cbd50f6c26a47aac6232969258ce9719b1c56de18457e8f",
+          "sha1": "fe611c9d8799f6562d9fd12b92e8c1044fd82a36",
+          "md5": "f71c26ba88a0fa5d0a249926ca0f2716"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-domain",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-bom",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-common",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "core-util",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.mozio.mobile",
+          "module": "reservations-data",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "reservations-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "url": "reservations-usecase-iossimulatorarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "1a81b2aea85dca02aff5383e8a59207b1eceb65d11abed83dd686b00630e2e49301a7c2195399f4d1b20a2d0e859ada68e81f656739c435990d58e4c098955ce",
+          "sha256": "a13bb23bec81b52ccd37d7001d5c376dc2bee57949d0a7d5e6c09a62eb6142ab",
+          "sha1": "61e24f83c9d076db8fd6f0a5e5884b6079322091",
+          "md5": "a3abe88bed914b803eee8d890923a977"
+        }
+      ]
+    }
+  ]
+}

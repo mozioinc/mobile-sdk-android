@@ -14,6 +14,13 @@ For each app version, changes can be grouped with the following tags
 
 ## [Unreleased]
 
+## [v0.10.0] - 2026-11-24 08:29:53 Z
+
+### Other
+- Improve error reporting and logging
+- `logSeverity` now only sets the SDK's HTTP log level: set Kermit's minimum severity in your app
+- Requires Kotlin 2.4, kotlinx-coroutines 1.11 and kotlinx-serialization 1.11
+
 ## [v0.9.1] - 2026-05-21 23:27:05 Z
 
 ### Bug fixes
