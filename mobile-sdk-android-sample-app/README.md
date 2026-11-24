@@ -28,15 +28,20 @@ maven("https://jitpack.io") {
 In your `libs.versions.toml`, specify the Mozio SDK version:
 
 ```toml
-mozio-mobile-sdk = "0.1.0"
+mozio-mobile-sdk = "0.10.0"
+kermit = "2.0.8"
 mozio-mobile-sdk-ui = { group = "com.mozio.mobile.android", name = "sdk-ui", version.ref = "mozio-mobile-sdk" }
+kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
 ```
 
-Then, include the dependency in your app's `build.gradle.kts` file:
+Then, include the dependencies in your app's `build.gradle.kts` file:
 
 ```kotlin
 implementation(libs.mozio.mobile.sdk.ui)
+implementation(libs.kermit) // to configure the SDK's logs, see Logging
 ```
+
+The SDK is built with Kotlin 2.4, kotlinx-coroutines 1.11 and kotlinx-serialization 1.11: your app needs these versions or newer.
 
 ### 3. Add Google Maps API Key
 
@@ -56,15 +61,36 @@ Replace `YOUR_GOOGLE_MAPS_API_KEY` with your actual Google Maps API key.
 In your `Application` class, inside the `onCreate()` method, initialize the Mozio SDK with the required parameters like:
 
 ```kotlin
+// The SDK logs through Kermit but doesn't change its settings: your app sets the minimum severity
+Logger.setMinSeverity(if (BuildConfig.DEBUG) Severity.Debug else Severity.Info)
 MozioSDK.init(
     application = this,
     environment = Environment.TESTING,
-    apiKey = ApiKey("YOUR_MOZIO_API_KEY")
+    apiKey = ApiKey("YOUR_MOZIO_API_KEY"),
+    logSeverity = if (BuildConfig.DEBUG) LogSeverity.VERBOSE else LogSeverity.INFO // optional, see Logging
 )
 ```
 
 Use `Environment.TESTING` or `Environment.PRODUCTION` based on your build variant configuration.
 Replace `YOUR_MOZIO_API_KEY` with the appropriate apiKey provided by Mozio.
+
+---
+
+## 📝 Logging
+
+The SDK logs through [Kermit](https://github.com/touchlab/Kermit)'s global `Logger`, and doesn't change its settings:
+- set the minimum severity in your app with `Logger.setMinSeverity`;
+- to send the SDK's logs to your crash reporting or logging, add your own `LogWriter` with `Logger.addLogWriter` (for Firebase Crashlytics, Kermit provides `CrashlyticsLogWriter` in `co.touchlab:kermit-crashlytics`).
+
+`logSeverity` in `MozioSDK.init` sets how much the SDK logs about its HTTP calls:
+
+| `logSeverity` | Logged | Kermit severity |
+|---|---|---|
+| `VERBOSE` | Full requests and responses: use it in debug builds only | Debug |
+| `DEBUG` (default), `INFO` | Method, URL and status | Info |
+| `WARN`, `ERROR`, `ASSERT` | Nothing | - |
+
+HTTP lines show up only if Kermit's minimum severity lets them through.
 
 ---
 
@@ -120,7 +146,7 @@ fun init(
 - **`apiKey`** *(ApiKey)*: The API key required to authenticate with the Mozio API.
 - **`shouldDisplayResultsWhileLoading`** *(Boolean, optional)*: Determines whether ride results should start being displayed while search is still running. Defaults to `true`.
 - **`termsOfServiceUrl`** *(TermsOfServiceUrl, optional)*: The URL linking to the terms of service. Defaults to Mozio's official terms.
-- **`logSeverity`** *(LogSeverity, optional)*: Defines the severity level for logs. Defaults to `DEBUG`.
+- **`logSeverity`** *(LogSeverity, optional)*: How much the SDK logs about its HTTP calls, see [Logging](#-logging). Defaults to `DEBUG`.
 - **`ridesFilterAndSorter`** *(RidesFilterAndSorter, optional)*: A function that filters and sorts ride results before displaying them. Defaults to no sort/filter logic applied.
 - **`lightColors`** *(ColorsConfig, optional)*: Defines the light theme colors for the SDK. Defaults to Mozio light colors.
 - **`darkColors`** *(ColorsConfig, optional)*: Defines the dark theme colors for the SDK. Defaults to Mozio dark colors.
